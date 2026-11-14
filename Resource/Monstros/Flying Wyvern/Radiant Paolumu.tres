@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://pc4frny3jvqc"]
+
+[ext_resource type="Texture2D" uid="uid://cbhk4d0hvlxwr" path="res://Foto/Flying Wyvern/MHOutlanders-Radiant_Paolumu_Icon.png" id="1_lgl3i"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_dymdj"]
+
+[resource]
+script = ExtResource("2_dymdj")
+nome = "Radiant Paolumu"
+foto = ExtResource("1_lgl3i")
+tipo = 3
+comentario2 = "Very cute yet pathetic... Literally me!"
+comentario2_br = "Muito fofo, mas ao mesmo tempo patética... Literalmente eu!"
+reacao = "3"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

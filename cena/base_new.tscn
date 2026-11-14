@@ -1,0 +1,1764 @@
+[gd_scene format=3 uid="uid://b5aij2cnv6agu"]
+
+[ext_resource type="Script" uid="uid://yevhc7eaf7p5" path="res://Scripts/teste_new.gd" id="1_7e2sn"]
+[ext_resource type="Texture2D" uid="uid://cornl7h01ipjp" path="res://Foto/UI/old-parchment-paper-sheet-vintage-aged-or-texture-background-png.png" id="2_p6oq2"]
+[ext_resource type="FontFile" uid="uid://bd2ocjopo3vlc" path="res://SEGOEPR.TTF" id="3_ewws2"]
+[ext_resource type="Texture2D" uid="uid://hpfdrf4gghix" path="res://Foto/UI/diffuse.jpg33fdfaeb-9b03-41b8-bb29-7ca98d3cba01Large.png" id="4_bjk35"]
+[ext_resource type="FontFile" uid="uid://cbbwuhgkovktl" path="res://CONSOLAZ.TTF" id="5_dmlgi"]
+[ext_resource type="Texture2D" uid="uid://cludkclb3xes1" path="res://Foto/UI/settingo.png" id="6_v27ps"]
+[ext_resource type="Texture2D" uid="uid://cv23ot2timi5d" path="res://Foto/Luna/1.png" id="7_nt7ul"]
+[ext_resource type="Texture2D" uid="uid://djyvakhfkvfo5" path="res://Foto/Luna/1_b_2.png" id="8_lu0cc"]
+[ext_resource type="Texture2D" uid="uid://dwvjv1lfclwa3" path="res://Foto/Luna/2_a.png" id="9_chqiv"]
+[ext_resource type="Texture2D" uid="uid://bvtjd7wo5vyxq" path="res://Foto/Luna/2.png" id="10_ersw3"]
+[ext_resource type="Texture2D" uid="uid://fu8h2we2mmga" path="res://Foto/Luna/1_b.png" id="11_rhe11"]
+[ext_resource type="Texture2D" uid="uid://5652ilfihikw" path="res://Foto/Luna/1_c.png" id="12_t0m4c"]
+[ext_resource type="Texture2D" uid="uid://bqho4pfoo5lwg" path="res://Foto/Luna/1_c_2.png" id="13_fsmwx"]
+[ext_resource type="Texture2D" uid="uid://dndtarmst5dxu" path="res://Foto/Luna/1_d.png" id="14_1rfoe"]
+[ext_resource type="Texture2D" uid="uid://datjmvqdxgmom" path="res://Foto/Luna/1_d_2.png" id="15_5b15g"]
+[ext_resource type="Texture2D" uid="uid://dtqarcksh3u6r" path="res://Foto/Luna/1_f.png" id="16_dhe7x"]
+[ext_resource type="Texture2D" uid="uid://qelf5iwhtaje" path="res://Foto/Luna/1_e.png" id="17_vb46p"]
+[ext_resource type="Texture2D" uid="uid://br2sgvabs6fy4" path="res://Foto/UI/dialoguebox_3.png" id="18_qgs4h"]
+[ext_resource type="Texture2D" uid="uid://bj4eec0ccjvmu" path="res://Foto/UI/dialoguebox.png" id="19_mahax"]
+[ext_resource type="FontFile" uid="uid://jjjpwm4l1q3t" path="res://CONSOLA.TTF" id="20_qtxeg"]
+[ext_resource type="Script" uid="uid://hqs7iq58bjr" path="res://Scripts/Woo.gd" id="21_j40ol"]
+[ext_resource type="Texture2D" uid="uid://cg2d0y1fxhnj7" path="res://Foto/UI/beautiful-wood-board-3d-render-for-design-png.png" id="22_v2o4m"]
+[ext_resource type="Script" uid="uid://cyo7at45tku2r" path="res://cena/Weapon_Handler.gd" id="23_lil05"]
+[ext_resource type="Script" uid="uid://curugrtm7pr5u" path="res://cena/condi_hand.gd" id="24_3cawh"]
+[ext_resource type="Script" uid="uid://ecrse34825k0" path="res://cena/mons_hand.gd" id="25_abquc"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="26_krdil"]
+[ext_resource type="Resource" uid="uid://xx0254goaoe4" path="res://Resource/Monstros/Flying Wyvern/Basarios.tres" id="28_uqorj"]
+[ext_resource type="Resource" uid="uid://biq0mos15okkd" path="res://Resource/Monstros/Flying Wyvern/Diablos.tres" id="30_3h8wq"]
+[ext_resource type="Resource" uid="uid://df5migcnyewtn" path="res://Resource/Monstros/Flying Wyvern/Gold Rathian.tres" id="31_uybh8"]
+[ext_resource type="Resource" uid="uid://cmm1qkfktjuga" path="res://Resource/Monstros/Flying Wyvern/Gravios.tres" id="32_swb7t"]
+[ext_resource type="Resource" uid="uid://b681jv6twwhfn" path="res://Resource/Monstros/Flying Wyvern/Khezu.tres" id="33_6ulgk"]
+[ext_resource type="Resource" uid="uid://q8tbbc2th2bv" path="res://Resource/Monstros/Flying Wyvern/Rathalos.tres" id="36_ol346"]
+[ext_resource type="Resource" uid="uid://dr1msfeff61qo" path="res://Resource/Monstros/Flying Wyvern/Rathian.tres" id="37_6v1p8"]
+[ext_resource type="Resource" uid="uid://cc2gmtkkwrh38" path="res://Resource/Monstros/Flying Wyvern/Silver Rathalos.tres" id="39_t2l0k"]
+[ext_resource type="Resource" uid="uid://cfaselbn4fwre" path="res://Resource/Monstros/Fanged Beast/Rajang.tres" id="47_x8lmp"]
+[ext_resource type="Resource" uid="uid://cj0svgl3b4dw1" path="res://Resource/Monstros/Brute Wyvern/Deviljho.tres" id="48_llndo"]
+[ext_resource type="Resource" uid="uid://cjcbwgt5uvq3g" path="res://Resource/Monstros/Fanged Wyvern/Zinogre.tres" id="49_6hgrk"]
+[ext_resource type="Resource" uid="uid://b3ewy1gr862fc" path="res://Resource/Monstros/Flying Wyvern/Seregios.tres" id="50_yroug"]
+[ext_resource type="Resource" uid="uid://dngn7lhtddaaq" path="res://Resource/Monstros/Snake Wyvern/Tidal Najarala.tres" id="51_qxvon"]
+[ext_resource type="Resource" uid="uid://cdh1k65qk2okc" path="res://Resource/Monstros/Flying Wyvern/Tigrex.tres" id="52_sjy1e"]
+[ext_resource type="Resource" uid="uid://b87l0n0m0reeh" path="res://Resource/Monstros/Leviathan/Agnaktor.tres" id="53_te11w"]
+[ext_resource type="Resource" uid="uid://bovt8gl6galqx" path="res://Resource/Monstros/Flying Wyvern/Astalos.tres" id="54_0y6ch"]
+[ext_resource type="Resource" uid="uid://tfm0rh88c3ew" path="res://Resource/Monstros/Flying Wyvern/Barioth.tres" id="55_pr3xp"]
+[ext_resource type="Resource" uid="uid://bfl32mbmpo04" path="res://Resource/Monstros/Brute Wyvern/Barroth.tres" id="56_3wmb6"]
+[ext_resource type="Resource" uid="uid://e2xdnub0fj2f" path="res://Resource/Monstros/Fanged Beast/Blangonga.tres" id="57_bljtn"]
+[ext_resource type="Resource" uid="uid://b0t641d0dyjcw" path="res://Resource/Monstros/Brute Wyvern/Brachydios.tres" id="58_xhla6"]
+[ext_resource type="Resource" uid="uid://3obs0hn3r6t3" path="res://Resource/Monstros/Fanged Beast/Congalala.tres" id="59_8ycjh"]
+[ext_resource type="Resource" uid="uid://b1854bu0qr6b1" path="res://Resource/Monstros/Carapaceon/Daimyo Hermitaur.tres" id="60_6o7ub"]
+[ext_resource type="Resource" uid="uid://3l61aw54vgt" path="res://Resource/Monstros/Brute Wyvern/Duramboros.tres" id="61_iywmi"]
+[ext_resource type="Resource" uid="uid://blcs4si4xhbpw" path="res://Resource/Monstros/Fanged Beast/Gammoth.tres" id="62_sfxbx"]
+[ext_resource type="Resource" uid="uid://bbql5hn1peoq1" path="res://Resource/Monstros/Brute Wyvern/Glavenus.tres" id="63_qnbbq"]
+[ext_resource type="Resource" uid="uid://b7id73ouxrgn" path="res://Resource/Monstros/Demi Elder/Gore Magala.tres" id="64_7jiav"]
+[ext_resource type="Resource" uid="uid://b1eevemplk001" path="res://Resource/Monstros/Bird Wyvern/Gypceros.tres" id="65_rt88u"]
+[ext_resource type="Resource" uid="uid://dnnvj103n0uyt" path="res://Resource/Monstros/Fanged Beast/Kecha Wacha.tres" id="66_p7kli"]
+[ext_resource type="Resource" uid="uid://cp8d2qk4lygf5" path="res://Resource/Monstros/Leviathan/Lagiacrus.tres" id="67_cobhq"]
+[ext_resource type="Resource" uid="uid://dmaitdiarglrn" path="res://Resource/Monstros/Piscine Wyvern/Lavasioth.tres" id="68_bemct"]
+[ext_resource type="Resource" uid="uid://d4c5bqjel1ixe" path="res://Resource/Monstros/Bird Wyvern/Malfestio.tres" id="69_sa7od"]
+[ext_resource type="Resource" uid="uid://b6i7rbtsbpdec" path="res://Resource/Monstros/Leviathan/Mizutsune.tres" id="70_365wt"]
+[ext_resource type="Resource" uid="uid://dlesbo25hb6ci" path="res://Resource/Monstros/Snake Wyvern/Najarala.tres" id="71_8tbg4"]
+[ext_resource type="Resource" uid="uid://c5v0pg23y4fpv" path="res://Resource/Monstros/Flying Wyvern/Nargacuga.tres" id="72_dfyw5"]
+[ext_resource type="Resource" uid="uid://b3cy5gqi7tqlu" path="res://Resource/Monstros/Temnoceran/Nerscylla.tres" id="73_kwui0"]
+[ext_resource type="Resource" uid="uid://b6pfjpsxp54uf" path="res://Resource/Monstros/Leviathan/Nibelsnarf.tres" id="74_n5525"]
+[ext_resource type="Resource" uid="uid://dmkeef3m31hsu" path="res://Resource/Monstros/Piscine Wyvern/Plesioth.tres" id="75_jb43b"]
+[ext_resource type="Resource" uid="uid://bndfamqi3q3jg" path="res://Resource/Monstros/Fanged Beast/Furios Rajang.tres" id="76_i0uxp"]
+[ext_resource type="Resource" uid="uid://cgwrsx8vrw78n" path="res://Resource/Monstros/Leviathan/Royal Ludroth.tres" id="77_7a7ar"]
+[ext_resource type="Resource" uid="uid://bhusi6bdpb55h" path="res://Resource/Monstros/Neopteron/Seltas Queen.tres" id="78_eig21"]
+[ext_resource type="Resource" uid="uid://dmlq0ihumpjel" path="res://Resource/Monstros/Carapaceon/Shogun Ceanataur.tres" id="79_2vlaq"]
+[ext_resource type="Resource" uid="uid://crif6i52yrbmx" path="res://Resource/Monstros/Amphibian/Tetsucabra.tres" id="80_33wnl"]
+[ext_resource type="Resource" uid="uid://bprg0lla56kk1" path="res://Resource/Monstros/Brute Wyvern/Uragaan.tres" id="81_x4kcs"]
+[ext_resource type="Resource" uid="uid://q1nc52csb1ob" path="res://Resource/Monstros/Bird Wyvern/Yian Garuga.tres" id="82_sl2ek"]
+[ext_resource type="Resource" uid="uid://dj011ldq8b73s" path="res://Resource/Monstros/Bird Wyvern/Yian Kut Ku.tres" id="83_erkh7"]
+[ext_resource type="Resource" uid="uid://c8ijrtmmqxv7o" path="res://Resource/Monstros/Amphibian/Zamtrios.tres" id="84_1kniv"]
+[ext_resource type="Resource" uid="uid://pikxa6baviuu" path="res://Resource/Monstros/Bird Wyvern/Aknosom.tres" id="85_1a6qs"]
+[ext_resource type="Resource" uid="uid://dws25dnuhyv3f" path="res://Resource/Monstros/Leviathan/Almudron.tres" id="86_vpc4a"]
+[ext_resource type="Resource" uid="uid://bs5rycqg0nl7e" path="res://Resource/Monstros/Leviathan/Magma Almudron.tres" id="87_cfpxm"]
+[ext_resource type="Resource" uid="uid://br47yfrsb72d2" path="res://Resource/Monstros/Brute Wyvern/Anjanath.tres" id="88_n03ew"]
+[ext_resource type="Resource" uid="uid://cn5x808rp6ta2" path="res://Resource/Monstros/Fanged Beast/Arzuros.tres" id="89_tpnq5"]
+[ext_resource type="Resource" uid="uid://cyo6e0f7y5pa5" path="res://Resource/Monstros/Flying Wyvern/Bazelgeuse.tres" id="90_553cr"]
+[ext_resource type="Resource" uid="uid://bapeu7dyvvgby" path="res://Resource/Monstros/Flying Wyvern/Seething Bazelgeuse.tres" id="91_dcd3u"]
+[ext_resource type="Resource" uid="uid://d2ih6sp2b15j4" path="res://Resource/Monstros/Fanged Beast/Bishaten.tres" id="92_5j7tj"]
+[ext_resource type="Resource" uid="uid://c5iio655nhoe3" path="res://Resource/Monstros/Fanged Beast/Blood Orange Bishaten.tres" id="93_3xswa"]
+[ext_resource type="Resource" uid="uid://dhfxkfxrfhald" path="res://Resource/Monstros/Flying Wyvern/Espinas.tres" id="94_x5j24"]
+[ext_resource type="Resource" uid="uid://c7l3u5jlrppm5" path="res://Resource/Monstros/Flying Wyvern/Flaming Espinas.tres" id="95_60neo"]
+[ext_resource type="Resource" uid="uid://cbrag1iogycf4" path="res://Resource/Monstros/Fanged Beast/Garangolm.tres" id="96_jl5sf"]
+[ext_resource type="Resource" uid="uid://n2ys3ggrok4f" path="res://Resource/Monstros/Fanged Beast/Goss Harag.tres" id="97_2gbb8"]
+[ext_resource type="Resource" uid="uid://buot3re0l7ks" path="res://Resource/Monstros/Bird Wyvern/Great Baggi.tres" id="98_xhu2g"]
+[ext_resource type="Resource" uid="uid://coo3mew16xo8v" path="res://Resource/Monstros/Bird Wyvern/Great Izuchi.tres" id="99_fq7sr"]
+[ext_resource type="Resource" uid="uid://d0488qryf381r" path="res://Resource/Monstros/Bird Wyvern/Great Wroggi.tres" id="100_f1rf2"]
+[ext_resource type="Resource" uid="uid://p2gtpooiidsb" path="res://Resource/Monstros/Piscine Wyvern/Jyuratodos.tres" id="101_rwe8p"]
+[ext_resource type="Resource" uid="uid://cgwywkr8r34a3" path="res://Resource/Monstros/Bird Wyvern/Kulu Ya Ku.tres" id="102_m1s0u"]
+[ext_resource type="Resource" uid="uid://bjvi8swxtov1i" path="res://Resource/Monstros/Fanged Beast/Lagombi.tres" id="103_gnvno"]
+[ext_resource type="Resource" uid="uid://cafcpmek3ke1p" path="res://Resource/Monstros/Fanged Wyvern/Lunagaron.tres" id="104_wlf5l"]
+[ext_resource type="Resource" uid="uid://lcq8us3q5qyp" path="res://Resource/Monstros/Fanged Wyvern/Scorned Magnamalo.tres" id="105_ptuh4"]
+[ext_resource type="Resource" uid="uid://utndihqrc62s" path="res://Resource/Monstros/Bird Wyvern/Pukei-Pukei.tres" id="106_mqek6"]
+[ext_resource type="Resource" uid="uid://db1exbgajgypf" path="res://Resource/Monstros/Temnoceran/Rakna-Kadaki.tres" id="107_gh1rq"]
+[ext_resource type="Resource" uid="uid://ct2fjj68fn2o7" path="res://Resource/Monstros/Temnoceran/Pyre Rakna-Kadaki.tres" id="108_xsf7r"]
+[ext_resource type="Resource" uid="uid://cipb5aqx2nqos" path="res://Resource/Monstros/Leviathan/Somnacanth.tres" id="109_5o2bv"]
+[ext_resource type="Resource" uid="uid://02sir3oqeutf" path="res://Resource/Monstros/Leviathan/Aurora Somnacanth.tres" id="110_vxqev"]
+[ext_resource type="Resource" uid="uid://bsgym6uncx5p2" path="res://Resource/Monstros/Amphibian/Tetranodon.tres" id="111_g1brl"]
+[ext_resource type="Resource" uid="uid://d0wf1v832ej2n" path="res://Resource/Monstros/Fanged Wyvern/Tobi-Kadachi.tres" id="112_yjsqj"]
+[ext_resource type="Resource" uid="uid://c6tpttbqff1vs" path="res://Resource/Monstros/Fanged Beast/Volvidon.tres" id="113_frxru"]
+[ext_resource type="Resource" uid="uid://co4p5664tyal" path="res://Resource/Monstros/Demi Elder/Chaotic Gore Magala.tres" id="114_00145"]
+[ext_resource type="Resource" uid="uid://cnjieggxjac7c" path="res://Resource/Monstros/Fanged Beast/Redhelm Arzuros.tres" id="115_7krcs"]
+[ext_resource type="Resource" uid="uid://cb6evciw0mi8y" path="res://Resource/Monstros/Carapaceon/Stonefist Hermitaur.tres" id="116_1oghm"]
+[ext_resource type="Resource" uid="uid://b3wru8is8p7e2" path="res://Resource/Monstros/Brute Wyvern/Hellblade Glavenus.tres" id="117_54jt0"]
+[ext_resource type="Resource" uid="uid://dc041b2wunxb8" path="res://Resource/Monstros/Fanged Beast/Snowbaron Lagombi.tres" id="118_g7xvu"]
+[ext_resource type="Resource" uid="uid://cgumc3kf31lnm" path="res://Resource/Monstros/Flying Wyvern/Silverwind Nargacuga.tres" id="119_sodox"]
+[ext_resource type="Resource" uid="uid://bipebgr5scpmo" path="res://Resource/Monstros/Flying Wyvern/Dreadking Rathalos.tres" id="120_rga0a"]
+[ext_resource type="Resource" uid="uid://5pjuvcokf0ju" path="res://Resource/Monstros/Flying Wyvern/Dreadqueen Rathian.tres" id="121_kqwh1"]
+[ext_resource type="Resource" uid="uid://bfyqwlhwatfjf" path="res://Resource/Monstros/Amphibian/Drilltusk Testucabra.tres" id="122_a8u0j"]
+[ext_resource type="Resource" uid="uid://cov2et5lyvcr0" path="res://Resource/Monstros/Flying Wyvern/Grimclaw Tigrex.tres" id="123_nw52p"]
+[ext_resource type="Resource" uid="uid://ckvnniwqhu7t" path="res://Resource/Monstros/Brute Wyvern/Crystalbeard Uragaan.tres" id="124_s4lwi"]
+[ext_resource type="Resource" uid="uid://dua86o5ofl8dk" path="res://Resource/Monstros/Bird Wyvern/Deadeye Yian Garuga.tres" id="125_homij"]
+[ext_resource type="Resource" uid="uid://cyvb8c0sta8my" path="res://Resource/Monstros/Fanged Wyvern/Thunderlord Zinogre.tres" id="126_ciaem"]
+[ext_resource type="Resource" uid="uid://16sh88c4oqt" path="res://Resource/Monstros/Flying Wyvern/Boltreaver Astalos.tres" id="127_6n4w8"]
+[ext_resource type="Resource" uid="uid://cg61e8c60kilw" path="res://Resource/Monstros/Flying Wyvern/Bloodbath Diablos.tres" id="128_xxhwj"]
+[ext_resource type="Resource" uid="uid://bfxyxajcbmhmp" path="res://Resource/Monstros/Fanged Beast/Elderfrost Gammoth.tres" id="129_ivynm"]
+[ext_resource type="Resource" uid="uid://bm1irittah5kd" path="res://Resource/Monstros/Bird Wyvern/Nightcloak Malfestio.tres" id="130_0bmcq"]
+[ext_resource type="Resource" uid="uid://cpy4qp1ygpxjn" path="res://Resource/Monstros/Leviathan/Soulseer Mizutsune.tres" id="131_cq4go"]
+[ext_resource type="Resource" uid="uid://dsts4ywx7ouks" path="res://Resource/Monstros/Carapaceon/Rustrazor Ceanataur.tres" id="132_bs7t0"]
+[ext_resource type="Resource" uid="uid://cbrsuev2pr4bv" path="res://Resource/Monstros/Brute Wyvern/Starving Deviljho.tres" id="133_suyf2"]
+[ext_resource type="Resource" uid="uid://cwe1ptht4ou5q" path="res://Resource/Monstros/Fanged Wyvern/Howling Zinogre.tres" id="134_cwrq7"]
+[ext_resource type="Resource" uid="uid://bgoyyccn1fgt4" path="res://Resource/Monstros/Flying Wyvern/Thirsty Pariapuria.tres" id="135_j038i"]
+[ext_resource type="Resource" uid="uid://dakxvlg22ijxn" path="res://Resource/Monstros/Flying Wyvern/Zerureusu.tres" id="136_tw4ap"]
+[ext_resource type="Resource" uid="uid://da0h34ck37wrf" path="res://Resource/Monstros/Flying Wyvern/Blinking Nargacuga.tres" id="137_7b2fe"]
+[ext_resource type="Resource" uid="uid://dw0sih272ivr0" path="res://Resource/Monstros/Flying Wyvern/Mysterious Mi Ru.tres" id="138_x5f5e"]
+[ext_resource type="Resource" uid="uid://bfp8ujing4lnb" path="res://Resource/Monstros/Elder Dragon/Ruler Guanzorumu.tres" id="139_316o4"]
+[ext_resource type="Resource" uid="uid://cr0d7k1n6takf" path="res://Resource/Monstros/Elder Dragon/Burning Freezing Eruzerion.tres" id="140_42jqj"]
+[ext_resource type="Resource" uid="uid://6gr8fkjcxje" path="res://Resource/Monstros/Elder Dragon/Arrogant Duremudira.tres" id="141_i67xo"]
+[ext_resource type="Resource" uid="uid://1vj6uxnpwrfy" path="res://Resource/Monstros/Flying Wyvern/Bombardier Bogadorumu.tres" id="142_0nhbf"]
+[ext_resource type="Resource" uid="uid://dvuj18blnsmx2" path="res://Resource/Monstros/Bird Wyvern/Zenith Hypnocatrice.tres" id="143_bm0ph"]
+[ext_resource type="Resource" uid="uid://dhas5803puwfc" path="res://Resource/Monstros/Bird Wyvern/Zenith Toridcless.tres" id="144_8tujx"]
+[ext_resource type="Resource" uid="uid://h4sylrxpxuts" path="res://Resource/Monstros/Brute Wyvern/Zenith Gasurabazura.tres" id="145_md4e1"]
+[ext_resource type="Resource" uid="uid://cvif704ds7dkm" path="res://Resource/Monstros/Brute Wyvern/Zenith Giaorugu.tres" id="146_g6bie"]
+[ext_resource type="Resource" uid="uid://b7snm1yja5r1a" path="res://Resource/Monstros/Carapaceon/Zenith Akura Vashimu.tres" id="147_rxfog"]
+[ext_resource type="Resource" uid="uid://dicl65udnfihs" path="res://Resource/Monstros/Carapaceon/Zenith Daimyo Hermitaur.tres" id="148_gbdbb"]
+[ext_resource type="Resource" uid="uid://cc8wt57v55ry" path="res://Resource/Monstros/Carapaceon/Zenith Taikun Zamuza.tres" id="149_c5006"]
+[ext_resource type="Script" uid="uid://b0ihty531jt85" path="res://Scripts/weapon_hand.gd" id="150_65dfb"]
+[ext_resource type="Resource" uid="uid://cpylfl4lbnlms" path="res://Resource/Monstros/Elder Dragon/Zenith Harudomerugu.tres" id="150_mbhoq"]
+[ext_resource type="Resource" uid="uid://ckgaxhidyy341" path="res://Resource/Monstros/Elder Dragon/Zenith Inagami.tres" id="151_2uhwf"]
+[ext_resource type="Resource" uid="uid://d115mer18s6g0" path="res://Resource/Monstros/Elder Dragon/Zenith Rukodiora.tres" id="152_gsj0q"]
+[ext_resource type="Resource" uid="uid://duk02ovesm7an" path="res://Resource/Monstros/Flying Wyvern/Zenith Anorupatisu.tres" id="153_xfkb8"]
+[ext_resource type="Resource" uid="uid://bcm5y5c4tfr7b" path="res://Resource/Monstros/Flying Wyvern/Zenith Doragyurosu.tres" id="154_cs8wp"]
+[ext_resource type="Resource" uid="uid://dogoikdow6rih" path="res://Resource/Monstros/Flying Wyvern/Zenith Espinas.tres" id="155_v85dx"]
+[ext_resource type="Resource" uid="uid://b60quj3dnsj6f" path="res://Resource/Monstros/Flying Wyvern/Zenith Gravios.tres" id="156_q4o2a"]
+[ext_resource type="Resource" uid="uid://cwy2nebqeq7ej" path="res://Resource/Monstros/Flying Wyvern/Zenith Hyujikiki.tres" id="157_pgakp"]
+[ext_resource type="Resource" uid="uid://04kwg3f5ltgr" path="res://Resource/Monstros/Flying Wyvern/Zenith Khezu.tres" id="158_h14rg"]
+[ext_resource type="Resource" uid="uid://d38qaabsaus30" path="res://Resource/Monstros/Flying Wyvern/Zenith Rathalos.tres" id="159_eksaw"]
+[ext_resource type="Resource" uid="uid://d1dynx4odvjnk" path="res://Resource/Monstros/Flying Wyvern/Zenith Tigrex.tres" id="160_ytqgu"]
+[ext_resource type="Resource" uid="uid://ceh5hlgc6ovui" path="res://Resource/Monstros/Piscine Wyvern/Zenith Plesioth.tres" id="161_1y4o5"]
+[ext_resource type="Texture2D" uid="uid://djkxa0plf3hdh" path="res://Foto/UI/son2.png" id="162_st6gx"]
+[ext_resource type="Texture2D" uid="uid://3ey3u3e2lfpd" path="res://Foto/UI/son1.png" id="163_ji7fo"]
+[ext_resource type="Texture2D" uid="uid://b18pqvm8u3ym7" path="res://Foto/UI/sucess2.png" id="164_q07tg"]
+[ext_resource type="Texture2D" uid="uid://5qsx3f6d4sf7" path="res://Foto/UI/sucess1.ong.png" id="165_uvom4"]
+[ext_resource type="Texture2D" uid="uid://dw2e22tvraxpa" path="res://Foto/UI/brown-wood-textured-background-with-design-space_53876-160425.png" id="166_4irnv"]
+[ext_resource type="Theme" uid="uid://che4u2xnx1qvo" path="res://line_edit_tema.tres" id="167_t6luk"]
+[ext_resource type="Script" uid="uid://d4i7fmt4ajkbv" path="res://Scripts/webload.gd" id="168_jfph0"]
+[ext_resource type="Texture2D" uid="uid://dh5oj4024df7f" path="res://Foto/UI/Old-Paper.png" id="169_tkqv1"]
+[ext_resource type="Theme" uid="uid://c6g42r6eqjx8u" path="res://temas/checkbox.tres" id="171_ghuy7"]
+[ext_resource type="Script" uid="uid://by1ad640ciloo" path="res://Scripts/ui_handler.gd" id="172_hyfky"]
+[ext_resource type="Theme" uid="uid://dpaw6xfjoeq1n" path="res://cross.tres" id="174_ebd5r"]
+[ext_resource type="Texture2D" uid="uid://bcuseoietm8j" path="res://Foto/UI/cross.png" id="175_watk5"]
+[ext_resource type="FontFile" uid="uid://b34isdjuniwb3" path="res://MONSTER HUNTER TYPE 2.TTF" id="176_5ejxr"]
+[ext_resource type="Texture2D" uid="uid://d2d1pl38mvfwt" path="res://Foto/UI/Tigrex.png" id="177_fl6rs"]
+[ext_resource type="Script" uid="uid://bj4aubqkfqsun" path="res://Scripts/lang_man.gd" id="178_8dwuu"]
+[ext_resource type="FontFile" uid="uid://feic6bscqwxn" path="res://SUPERNATURAL_KNIGHT.TTF" id="178_dcoc5"]
+[ext_resource type="Texture2D" uid="uid://bchsuyeghuavg" path="res://Foto/UI/luz.png" id="179_hl7ml"]
+[ext_resource type="AudioStream" uid="uid://nxynybak2c7f" path="res://sfx/Sino de recepção efeito sonoro!! - audio efeitos brasil.mp3" id="180_iahvx"]
+[ext_resource type="AudioStream" uid="uid://bntt6mhkvf5f0" path="res://sfx/Open Book Sound Effect - Free Audio Zone.mp3" id="181_0mgj1"]
+[ext_resource type="AudioStream" uid="uid://bnn7f3pcbs2ue" path="res://sfx/Page Turn Sound Effect! Flip Sound Effect! - Mathew Aleman Lim.mp3" id="182_racip"]
+[ext_resource type="AudioStream" uid="uid://b7dgmgbtkeheo" path="res://sfx/Squeaky Toy Sound Effect - Sound Effects Library.mp3" id="183_tw0io"]
+[ext_resource type="AudioStream" uid="uid://dnv4u3t2v4w2w" path="res://sfx/Deltarune Chapter 5 - Pink Voice - Mister Fister.mp3" id="184_28ynf"]
+[ext_resource type="AudioStream" uid="uid://yo48m36lu24t" path="res://sfx/Gas Decompression Sound Effect ｜ No Copyright - NEZAR Free Sound FX.mp3" id="185_dm1uj"]
+[ext_resource type="AudioStream" uid="uid://dhc2x80p0xkga" path="res://sfx/Scrape Slide Wood - Sound Effect SFX - Wood Sound Effects.mp3" id="186_vsq4i"]
+[ext_resource type="AudioStream" uid="uid://nlaatjvm0nc8" path="res://sfx/Monster Hunter Ultimate Quest Start Horn - irononreverse.mp3" id="187_duses"]
+[ext_resource type="AudioStream" uid="uid://bgy27j40l5suo" path="res://sfx/Gears 1 sound effects - be professional.mp3" id="188_176hm"]
+
+[sub_resource type="Animation" id="Animation_skvas"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Background:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1000, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_igt2p"]
+resource_name = "roll"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Background:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1000, 0), Vector2(0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_t7syd"]
+_data = {
+&"RESET": SubResource("Animation_skvas"),
+&"roll": SubResource("Animation_igt2p")
+}
+
+[sub_resource type="Gradient" id="Gradient_n15w2"]
+offsets = PackedFloat32Array(0, 0.98418975)
+colors = PackedColorArray(0.1728327, 0.17283267, 0.17283267, 1, 0.32915837, 0.3291584, 0.3291584, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_57qmd"]
+gradient = SubResource("Gradient_n15w2")
+
+[sub_resource type="Gradient" id="Gradient_orxhv"]
+offsets = PackedFloat32Array(0.0039525693, 1)
+colors = PackedColorArray(0.16116881, 0.034234043, 2.4065375e-08, 1, 0.16116881, 0.034234043, 2.4065375e-08, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_4djin"]
+gradient = SubResource("Gradient_orxhv")
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_g4v7s"]
+animations = [{
+"frames": [{
+"duration": 15.0,
+"texture": ExtResource("7_nt7ul")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_lu0cc")
+}, {
+"duration": 25.0,
+"texture": ExtResource("7_nt7ul")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_lu0cc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_nt7ul")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_nt7ul")
+}],
+"loop": 1,
+"name": &"0",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 0.5,
+"texture": ExtResource("9_chqiv")
+}, {
+"duration": 0.5,
+"texture": ExtResource("10_ersw3")
+}],
+"loop": 1,
+"name": &"1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 0.5,
+"texture": ExtResource("11_rhe11")
+}, {
+"duration": 0.5,
+"texture": ExtResource("7_nt7ul")
+}],
+"loop": 1,
+"name": &"2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 0.5,
+"texture": ExtResource("12_t0m4c")
+}, {
+"duration": 0.5,
+"texture": ExtResource("13_fsmwx")
+}],
+"loop": 1,
+"name": &"3",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 0.5,
+"texture": ExtResource("14_1rfoe")
+}, {
+"duration": 0.5,
+"texture": ExtResource("15_5b15g")
+}],
+"loop": 1,
+"name": &"4",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("16_dhe7x")
+}],
+"loop": 1,
+"name": &"5",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_vb46p")
+}],
+"loop": 1,
+"name": &"6",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yf5fn"]
+animations = [{
+"frames": [{
+"duration": 1.5,
+"texture": ExtResource("18_qgs4h")
+}, {
+"duration": 1.5,
+"texture": ExtResource("19_mahax")
+}],
+"loop": 1,
+"name": &"1",
+"speed": 5.0
+}]
+
+[sub_resource type="Animation" id="Animation_sttri"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Luna:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_f6gl0"]
+resource_name = "idle"
+length = 10.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Luna:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 4.99, 10),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(1, 1), Vector2(1.025, 1.025), Vector2(1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_dxx1t"]
+_data = {
+&"RESET": SubResource("Animation_sttri"),
+&"idle": SubResource("Animation_f6gl0")
+}
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g4v7s"]
+size = Vector2(141, 187)
+
+[sub_resource type="Animation" id="Animation_2sp1g"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("condicoes:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1114, -777)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("monsti:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-489, 482)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("weapon:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1219, 535)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Luna/AnimatedSprite2D:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-57.650574, -56.656616)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Settings:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(657, -211)]
+}
+
+[sub_resource type="Animation" id="Animation_mp6ea"]
+resource_name = "condi_list_close"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("condicoes:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(244, 0), Vector2(240, -776)]
+}
+
+[sub_resource type="Animation" id="Animation_bf8qv"]
+resource_name = "condi_list_open"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("condicoes:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(240, -776), Vector2(244, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_4o67m"]
+resource_name = "jump"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Luna/AnimatedSprite2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.14, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(-57.650574, -56.656616), Vector2(-57.651, -65.032), Vector2(-57.650574, -56.656616)]
+}
+
+[sub_resource type="Animation" id="Animation_6prfx"]
+resource_name = "monst_list_close"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("monsti:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(-2, 1037), Vector2(-811, 1029)]
+}
+
+[sub_resource type="Animation" id="Animation_bexg2"]
+resource_name = "monst_list_open"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("monsti:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(-811, 1029), Vector2(-2, 1037)]
+}
+
+[sub_resource type="Animation" id="Animation_aq7di"]
+resource_name = "monst_list_stay"
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("monsti:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-811, 1029)]
+}
+
+[sub_resource type="Animation" id="Animation_bjt3i"]
+resource_name = "setting_close"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Settings:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(657, 7), Vector2(657, -211)]
+}
+
+[sub_resource type="Animation" id="Animation_rjcoi"]
+resource_name = "setting_open"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Settings:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(657, -211), Vector2(657, 7)]
+}
+
+[sub_resource type="Animation" id="Animation_mxcir"]
+resource_name = "weapon_list_close"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("weapon:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 2.2973967),
+"update": 0,
+"values": [Vector2(631, 825), Vector2(1135, 894)]
+}
+
+[sub_resource type="Animation" id="Animation_1lik4"]
+resource_name = "weapon_list_open"
+length = 0.23333333
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("weapon:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 78.26848),
+"update": 0,
+"values": [Vector2(1135, 894), Vector2(631, 825)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_mp6ea"]
+_data = {
+&"RESET": SubResource("Animation_2sp1g"),
+&"condi_list_close": SubResource("Animation_mp6ea"),
+&"condi_list_open": SubResource("Animation_bf8qv"),
+&"jump": SubResource("Animation_4o67m"),
+&"monst_list_close": SubResource("Animation_6prfx"),
+&"monst_list_open": SubResource("Animation_bexg2"),
+&"monst_list_stay": SubResource("Animation_aq7di"),
+&"setting_close": SubResource("Animation_bjt3i"),
+&"setting_open": SubResource("Animation_rjcoi"),
+&"weapon_list_close": SubResource("Animation_mxcir"),
+&"weapon_list_open": SubResource("Animation_1lik4")
+}
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_57qmd"]
+animations = [{
+"frames": [{
+"duration": 1.5,
+"texture": ExtResource("162_st6gx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("163_ji7fo")
+}],
+"loop": 1,
+"name": &"1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("163_ji7fo")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_fcnqv"]
+radius = 16.0
+height = 60.0
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_rlq7g"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_sklv6"]
+animations = [{
+"frames": [{
+"duration": 1.5,
+"texture": ExtResource("164_q07tg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165_uvom4")
+}],
+"loop": 1,
+"name": &"1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_rlq7g")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_r2toi"]
+animations = [{
+"frames": [{
+"duration": 1.5,
+"texture": ExtResource("164_q07tg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165_uvom4")
+}],
+"loop": 1,
+"name": &"1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("165_uvom4")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_54jr1"]
+animations = [{
+"frames": [{
+"duration": 1.5,
+"texture": SubResource("CompressedTexture2D_rlq7g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164_q07tg")
+}],
+"loop": 1,
+"name": &"1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("165_uvom4")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="Gradient" id="Gradient_7e2sn"]
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_yf5fn"]
+gradient = SubResource("Gradient_7e2sn")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_65dfb"]
+content_margin_bottom = 6.0
+bg_color = Color(0.3716798, 0.52995443, 3.85046e-07, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.98178774, 0.76903915, 3.85046e-07, 1)
+corner_radius_top_left = 100
+corner_radius_top_right = 117
+corner_radius_bottom_right = 100
+corner_radius_bottom_left = 100
+expand_margin_left = 11.0
+expand_margin_top = 13.0
+expand_margin_right = 11.0
+expand_margin_bottom = 13.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_v2r4p"]
+content_margin_bottom = 6.0
+bg_color = Color(0.5631554, 0.7899495, 0, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.98178774, 0.76903915, 3.85046e-07, 1)
+corner_radius_top_left = 100
+corner_radius_top_right = 117
+corner_radius_bottom_right = 100
+corner_radius_bottom_left = 100
+expand_margin_left = 11.0
+expand_margin_top = 13.0
+expand_margin_right = 11.0
+expand_margin_bottom = 13.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xkewn"]
+content_margin_bottom = 6.0
+bg_color = Color(0.18331423, 0.27074882, 0, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.98178774, 0.76903915, 3.85046e-07, 1)
+corner_radius_top_left = 100
+corner_radius_top_right = 117
+corner_radius_bottom_right = 100
+corner_radius_bottom_left = 100
+expand_margin_left = 11.0
+expand_margin_top = 13.0
+expand_margin_right = 11.0
+expand_margin_bottom = 13.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uqg8w"]
+content_margin_bottom = 6.0
+bg_color = Color(0.14520785, 0.21866181, 0, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.98178774, 0.76903915, 3.85046e-07, 1)
+corner_radius_top_left = 100
+corner_radius_top_right = 117
+corner_radius_bottom_right = 100
+corner_radius_bottom_left = 100
+expand_margin_left = 11.0
+expand_margin_top = 13.0
+expand_margin_right = 11.0
+expand_margin_bottom = 13.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uh0aj"]
+content_margin_bottom = 6.0
+bg_color = Color(0.35432574, 0.013426197, 2.4065375e-08, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.98178774, 0.76903915, 3.85046e-07, 1)
+corner_radius_top_left = 100
+corner_radius_top_right = 117
+corner_radius_bottom_right = 100
+corner_radius_bottom_left = 100
+expand_margin_left = 23.0
+expand_margin_right = 23.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dlkty"]
+content_margin_bottom = 6.0
+bg_color = Color(0.8509804, 0.078431375, 0, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.98178774, 0.76903915, 3.85046e-07, 1)
+corner_radius_top_left = 100
+corner_radius_top_right = 117
+corner_radius_bottom_right = 100
+corner_radius_bottom_left = 100
+expand_margin_left = 23.0
+expand_margin_right = 23.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kfenl"]
+content_margin_bottom = 6.0
+bg_color = Color(1, 0.45353156, 0.37430882, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.98178774, 0.76903915, 3.85046e-07, 1)
+corner_radius_top_left = 100
+corner_radius_top_right = 117
+corner_radius_bottom_right = 100
+corner_radius_bottom_left = 100
+expand_margin_left = 23.0
+expand_margin_right = 23.0
+
+[sub_resource type="Theme" id="Theme_h28hk"]
+Button/colors/font_outline_color = Color(1, 1, 1, 1)
+Button/constants/outline_size = 3
+Button/font_sizes/font_size = 47
+Button/fonts/font = ExtResource("176_5ejxr")
+Button/icons/icon = ExtResource("177_fl6rs")
+Button/styles/hover = SubResource("StyleBoxFlat_uh0aj")
+Button/styles/normal = SubResource("StyleBoxFlat_dlkty")
+Button/styles/pressed = SubResource("StyleBoxFlat_kfenl")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8dwuu"]
+content_margin_bottom = 6.0
+bg_color = Color(1.0263882e-05, 0.101023324, 0.3509539, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.98178774, 0.76903915, 3.85046e-07, 1)
+corner_radius_top_left = 100
+corner_radius_top_right = 100
+corner_radius_bottom_right = 100
+corner_radius_bottom_left = 100
+expand_margin_left = 48.0
+expand_margin_top = 13.0
+expand_margin_right = 48.0
+expand_margin_bottom = 13.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_la6fp"]
+content_margin_bottom = 6.0
+bg_color = Color(0, 0.23137255, 0.6901961, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.98178774, 0.76903915, 3.85046e-07, 1)
+corner_radius_top_left = 100
+corner_radius_top_right = 117
+corner_radius_bottom_right = 100
+corner_radius_bottom_left = 100
+expand_margin_left = 48.0
+expand_margin_top = 13.0
+expand_margin_right = 48.0
+expand_margin_bottom = 13.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7qyaj"]
+content_margin_bottom = 6.0
+bg_color = Color(0.33102968, 0.55755496, 1, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.98178774, 0.76903915, 3.85046e-07, 1)
+corner_radius_top_left = 100
+corner_radius_top_right = 100
+corner_radius_bottom_right = 100
+corner_radius_bottom_left = 100
+expand_margin_left = 48.0
+expand_margin_top = 13.0
+expand_margin_right = 48.0
+expand_margin_bottom = 13.0
+
+[sub_resource type="Theme" id="Theme_mjcor"]
+Button/colors/font_outline_color = Color(1, 1, 1, 1)
+Button/constants/outline_size = 2
+Button/font_sizes/font_size = 43
+Button/fonts/font = ExtResource("178_dcoc5")
+Button/styles/hover = SubResource("StyleBoxFlat_8dwuu")
+Button/styles/normal = SubResource("StyleBoxFlat_la6fp")
+Button/styles/pressed = SubResource("StyleBoxFlat_7qyaj")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wqpy7"]
+bg_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 23
+corner_radius_top_right = 28
+corner_radius_bottom_right = 26
+corner_radius_bottom_left = 28
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tt13v"]
+bg_color = Color(0.50928617, 0.50928617, 0.50928617, 1)
+corner_radius_top_left = 23
+corner_radius_top_right = 28
+corner_radius_bottom_right = 26
+corner_radius_bottom_left = 28
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ysoaw"]
+bg_color = Color(0.78697, 0.3543004, 0.3580913, 1)
+corner_radius_top_left = 23
+corner_radius_top_right = 28
+corner_radius_bottom_right = 26
+corner_radius_bottom_left = 28
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w8jus"]
+content_margin_bottom = 6.0
+bg_color = Color(0.5123122, 0.18346062, 0.0064629493, 1)
+skew = Vector2(0, 0.125)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.98178774, 0.76903915, 3.85046e-07, 1)
+expand_margin_left = 20.0
+expand_margin_top = 13.0
+expand_margin_right = 15.0
+expand_margin_bottom = 21.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_67d3l"]
+content_margin_bottom = 6.0
+bg_color = Color(0.9137255, 0.35686275, 0.047058824, 1)
+skew = Vector2(0, 0.125)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.98178774, 0.76903915, 3.85046e-07, 1)
+expand_margin_left = 20.0
+expand_margin_top = 13.0
+expand_margin_right = 15.0
+expand_margin_bottom = 8.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_26lf4"]
+content_margin_bottom = 6.0
+bg_color = Color(0.99556357, 0.5176789, 0.32070467, 1)
+skew = Vector2(0, 0.125)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.98178774, 0.76903915, 3.85046e-07, 1)
+expand_margin_left = 20.0
+expand_margin_top = 13.0
+expand_margin_right = 15.0
+expand_margin_bottom = 21.0
+
+[sub_resource type="Theme" id="Theme_67d3l"]
+Button/colors/font_outline_color = Color(1, 1, 1, 1)
+Button/constants/outline_size = 3
+Button/fonts/font = ExtResource("3_ewws2")
+Button/styles/hover = SubResource("StyleBoxFlat_w8jus")
+Button/styles/normal = SubResource("StyleBoxFlat_67d3l")
+Button/styles/pressed = SubResource("StyleBoxFlat_26lf4")
+
+[sub_resource type="Animation" id="Animation_dxx1t"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_lnqit"]
+resource_name = "luz"
+length = 10.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 5, 10),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [-0.09424778, 0.09424778, -0.09424778]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_sknqy"]
+_data = {
+&"RESET": SubResource("Animation_dxx1t"),
+&"luz": SubResource("Animation_lnqit")
+}
+
+[node name="Node2D" type="Node2D" unique_id=1869091245]
+script = ExtResource("1_7e2sn")
+tempp = Array[String](["Tempered", "Arch-Tempered"])
+can_capture = false
+
+[node name="back" type="AnimationPlayer" parent="." unique_id=2139314698]
+libraries/ = SubResource("AnimationLibrary_t7syd")
+
+[node name="Background" type="Node2D" parent="." unique_id=1985701265]
+position = Vector2(1000, 0)
+
+[node name="Sprite2D4" type="Sprite2D" parent="Background" unique_id=914454422]
+self_modulate = Color(0.5649617, 0.5649616, 0.5649616, 1)
+light_mask = 2
+position = Vector2(-71.00003, 224)
+scale = Vector2(4.089069, 2.28)
+texture = ExtResource("2_p6oq2")
+
+[node name="Label" type="Label" parent="Background" unique_id=88122114]
+offset_left = 233.0
+offset_top = 470.0
+offset_right = 714.0
+offset_bottom = 574.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 2
+theme_override_fonts/font = ExtResource("3_ewws2")
+theme_override_font_sizes/font_size = 22
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Sprite2D" type="Sprite2D" parent="Background" unique_id=798898112]
+texture_filter = 3
+position = Vector2(484, 339)
+scale = Vector2(1.58, 1.58)
+
+[node name="Sprite2D3" type="Sprite2D" parent="." unique_id=684839809]
+self_modulate = Color(0.375782, 0.3070011, 0.1906698, 1)
+light_mask = 2
+texture_filter = 1
+position = Vector2(472.17062, 492.00006)
+scale = Vector2(1.9060981, 1.8437146)
+texture = ExtResource("4_bjk35")
+
+[node name="Streak" type="Sprite2D" parent="." unique_id=1983591464]
+visible = false
+self_modulate = Color(0.37036446, 0.3703645, 0.37036446, 1)
+light_mask = 2
+position = Vector2(473.00003, 52.000004)
+scale = Vector2(0.5234375, 110.5)
+texture = SubResource("GradientTexture1D_57qmd")
+
+[node name="Streak2" type="Sprite2D" parent="." unique_id=1413526708]
+visible = false
+self_modulate = Color(0.51718444, 0.5171845, 0.51718444, 1)
+light_mask = 2
+position = Vector2(473, 40)
+scale = Vector2(-0.312, -65.909)
+texture = SubResource("GradientTexture1D_4djin")
+
+[node name="Label" type="Label" parent="." unique_id=848204273]
+visible = false
+self_modulate = Color(0.65012825, 0.6501283, 0.65012825, 1)
+light_mask = 2
+offset_left = 422.00003
+offset_top = 90.0
+offset_right = 480.00003
+offset_bottom = 113.0
+scale = Vector2(1.8399975, 1)
+theme_override_fonts/font = ExtResource("5_dmlgi")
+text = "STREAK"
+
+[node name="streak number" type="Label" parent="." unique_id=1628983941]
+visible = false
+self_modulate = Color(0.65012825, 0.6501283, 0.65012825, 1)
+light_mask = 2
+offset_left = 437.00003
+offset_top = 24.000008
+offset_right = 495.00003
+offset_bottom = 47.000008
+scale = Vector2(2.375, 2.375)
+theme_override_fonts/font = ExtResource("5_dmlgi")
+text = "0"
+
+[node name="Settings" type="Control" parent="." unique_id=33366639]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 657.0
+offset_top = -211.0
+offset_right = 697.0
+offset_bottom = -171.0
+
+[node name="Sprite2D" type="Sprite2D" parent="Settings" unique_id=1338377816]
+texture_filter = 1
+position = Vector2(104, 59.000008)
+scale = Vector2(2.5377057, 2.4607158)
+texture = ExtResource("6_v27ps")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Settings" unique_id=457042443]
+layout_mode = 0
+offset_right = 219.0
+offset_bottom = 155.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Settings/ScrollContainer" unique_id=280972006]
+layout_mode = 2
+
+[node name="Disable Tempereds" type="CheckBox" parent="Settings/ScrollContainer/VBoxContainer" unique_id=984294736]
+visible = false
+layout_mode = 2
+text = "Disable Tempereds"
+
+[node name="Only Tempered" type="CheckBox" parent="Settings/ScrollContainer/VBoxContainer" unique_id=1899294155]
+visible = false
+layout_mode = 2
+text = "Only Tempereds"
+
+[node name="Only Arch-Tempered" type="CheckBox" parent="Settings/ScrollContainer/VBoxContainer" unique_id=270874167]
+visible = false
+layout_mode = 2
+text = "Only Arch-Tempereds"
+
+[node name="Only Apex" type="CheckBox" parent="Settings/ScrollContainer/VBoxContainer" unique_id=1506258631]
+visible = false
+layout_mode = 2
+text = "Only Apex"
+
+[node name="Only Deviant" type="CheckBox" parent="Settings/ScrollContainer/VBoxContainer" unique_id=2088139019]
+visible = false
+layout_mode = 2
+text = "Only Deviant"
+
+[node name="Only Hyper" type="CheckBox" parent="Settings/ScrollContainer/VBoxContainer" unique_id=289560299]
+visible = false
+layout_mode = 2
+text = "Only Hyper"
+
+[node name="Only Afflicted" type="CheckBox" parent="Settings/ScrollContainer/VBoxContainer" unique_id=1629774827]
+visible = false
+layout_mode = 2
+text = "Only Afflicted"
+
+[node name="Only Zenith" type="CheckBox" parent="Settings/ScrollContainer/VBoxContainer" unique_id=1252433482]
+visible = false
+layout_mode = 2
+text = "Only Zenith"
+
+[node name="Only Musou" type="CheckBox" parent="Settings/ScrollContainer/VBoxContainer" unique_id=1320110505]
+visible = false
+layout_mode = 2
+text = "Only Musou"
+
+[node name="Enable capture" type="CheckBox" parent="Settings/ScrollContainer/VBoxContainer" unique_id=901201767]
+layout_mode = 2
+text = "Enable Capture"
+
+[node name="Luna" type="Node2D" parent="." unique_id=812387279]
+position = Vector2(861, 602)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Luna" unique_id=1439081920]
+self_modulate = Color(0.427493, 0.42749307, 0.42749307, 1)
+light_mask = 3
+texture_filter = 1
+position = Vector2(-57.650574, -56.656616)
+scale = Vector2(2.752, 2.793)
+sprite_frames = SubResource("SpriteFrames_g4v7s")
+animation = &"0"
+autoplay = "0"
+
+[node name="speech" type="AnimatedSprite2D" parent="Luna" unique_id=1949943164]
+visible = false
+texture_filter = 1
+position = Vector2(-240.00006, -378)
+scale = Vector2(2.176, 1.241)
+sprite_frames = SubResource("SpriteFrames_yf5fn")
+animation = &"1"
+frame_progress = 0.5829
+
+[node name="dialog" type="RichTextLabel" parent="Luna" unique_id=854372953]
+offset_left = -423.0
+offset_top = -407.0
+offset_right = -29.0
+offset_bottom = -263.0
+theme_override_colors/default_color = Color(0, 0, 0.4745098, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 1
+theme_override_fonts/normal_font = ExtResource("20_qtxeg")
+script = ExtResource("21_j40ol")
+
+[node name="luna_mov" type="AnimationPlayer" parent="Luna" unique_id=480354000]
+root_node = NodePath("../..")
+libraries/ = SubResource("AnimationLibrary_dxx1t")
+autoplay = &"idle"
+
+[node name="Area2D" type="Area2D" parent="Luna" unique_id=986269147]
+position = Vector2(-861, -602)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Luna/Area2D" unique_id=726019748]
+position = Vector2(853.5, 391.5)
+shape = SubResource("RectangleShape2D_g4v7s")
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=1582353134]
+self_modulate = Color(0.3854925, 0.38549247, 0.38549247, 1)
+light_mask = 2
+texture_filter = 1
+position = Vector2(539, 704.00006)
+scale = Vector2(5.151527, 1.8437146)
+texture = ExtResource("22_v2o4m")
+
+[node name="Node" type="Node" parent="." unique_id=1648269891]
+script = ExtResource("23_lil05")
+
+[node name="condi_hand" type="Node" parent="." unique_id=1109853117]
+script = ExtResource("24_3cawh")
+
+[node name="mons_hand" type="Node" parent="." unique_id=1491453192]
+script = ExtResource("25_abquc")
+list_mon_apex = Array[ExtResource("26_krdil")]([ExtResource("47_x8lmp"), ExtResource("48_llndo"), ExtResource("32_swb7t"), ExtResource("49_6hgrk"), ExtResource("50_yroug"), ExtResource("51_qxvon"), ExtResource("52_sjy1e"), ExtResource("30_3h8wq")])
+list_mon_hyper = Array[ExtResource("26_krdil")]([ExtResource("53_te11w"), ExtResource("54_0y6ch"), ExtResource("55_pr3xp"), ExtResource("56_3wmb6"), ExtResource("28_uqorj"), ExtResource("57_bljtn"), ExtResource("58_xhla6"), ExtResource("59_8ycjh"), ExtResource("60_6o7ub"), ExtResource("48_llndo"), ExtResource("30_3h8wq"), ExtResource("61_iywmi"), ExtResource("62_sfxbx"), ExtResource("63_qnbbq"), ExtResource("64_7jiav"), ExtResource("32_swb7t"), ExtResource("65_rt88u"), ExtResource("66_p7kli"), ExtResource("33_6ulgk"), ExtResource("67_cobhq"), ExtResource("68_bemct"), ExtResource("69_sa7od"), ExtResource("70_365wt"), ExtResource("71_8tbg4"), ExtResource("72_dfyw5"), ExtResource("73_kwui0"), ExtResource("74_n5525"), ExtResource("75_jb43b"), ExtResource("76_i0uxp"), ExtResource("36_ol346"), ExtResource("39_t2l0k"), ExtResource("37_6v1p8"), ExtResource("31_uybh8"), ExtResource("77_7a7ar"), ExtResource("78_eig21"), ExtResource("50_yroug"), ExtResource("79_2vlaq"), ExtResource("80_33wnl"), ExtResource("52_sjy1e"), ExtResource("81_x4kcs"), ExtResource("82_sl2ek"), ExtResource("83_erkh7"), ExtResource("84_1kniv"), ExtResource("49_6hgrk")])
+list_mon_afflicted = Array[ExtResource("26_krdil")]([ExtResource("85_1a6qs"), ExtResource("86_vpc4a"), ExtResource("87_cfpxm"), ExtResource("88_n03ew"), ExtResource("54_0y6ch"), ExtResource("89_tpnq5"), ExtResource("55_pr3xp"), ExtResource("56_3wmb6"), ExtResource("90_553cr"), ExtResource("91_dcd3u"), ExtResource("28_uqorj"), ExtResource("92_5j7tj"), ExtResource("93_3xswa"), ExtResource("60_6o7ub"), ExtResource("30_3h8wq"), ExtResource("94_x5j24"), ExtResource("95_60neo"), ExtResource("96_jl5sf"), ExtResource("97_2gbb8"), ExtResource("98_xhu2g"), ExtResource("99_fq7sr"), ExtResource("100_f1rf2"), ExtResource("101_rwe8p"), ExtResource("33_6ulgk"), ExtResource("102_m1s0u"), ExtResource("103_gnvno"), ExtResource("104_wlf5l"), ExtResource("105_ptuh4"), ExtResource("70_365wt"), ExtResource("72_dfyw5"), ExtResource("106_mqek6"), ExtResource("47_x8lmp"), ExtResource("76_i0uxp"), ExtResource("107_gh1rq"), ExtResource("108_xsf7r"), ExtResource("36_ol346"), ExtResource("39_t2l0k"), ExtResource("37_6v1p8"), ExtResource("31_uybh8"), ExtResource("77_7a7ar"), ExtResource("50_yroug"), ExtResource("79_2vlaq"), ExtResource("109_5o2bv"), ExtResource("110_vxqev"), ExtResource("111_g1brl"), ExtResource("52_sjy1e"), ExtResource("112_yjsqj"), ExtResource("113_frxru"), ExtResource("49_6hgrk"), ExtResource("64_7jiav"), ExtResource("114_00145")])
+list_mon_deviant = Array[ExtResource("26_krdil")]([ExtResource("115_7krcs"), ExtResource("116_1oghm"), ExtResource("117_54jt0"), ExtResource("118_g7xvu"), ExtResource("119_sodox"), ExtResource("120_rga0a"), ExtResource("121_kqwh1"), ExtResource("122_a8u0j"), ExtResource("123_nw52p"), ExtResource("124_s4lwi"), ExtResource("125_homij"), ExtResource("126_ciaem"), ExtResource("127_6n4w8"), ExtResource("128_xxhwj"), ExtResource("129_ivynm"), ExtResource("130_0bmcq"), ExtResource("131_cq4go"), ExtResource("132_bs7t0")])
+list_mon_Musou = Array[ExtResource("26_krdil")]([ExtResource("133_suyf2"), ExtResource("134_cwrq7"), ExtResource("135_j038i"), ExtResource("136_tw4ap"), ExtResource("137_7b2fe"), ExtResource("138_x5f5e"), ExtResource("139_316o4"), ExtResource("140_42jqj"), ExtResource("141_i67xo"), ExtResource("142_0nhbf")])
+list_mon_Zenith = Array[ExtResource("26_krdil")]([ExtResource("143_bm0ph"), ExtResource("144_8tujx"), ExtResource("145_md4e1"), ExtResource("146_g6bie"), ExtResource("147_rxfog"), ExtResource("148_gbdbb"), ExtResource("149_c5006"), ExtResource("150_mbhoq"), ExtResource("151_2uhwf"), ExtResource("152_gsj0q"), ExtResource("153_xfkb8"), ExtResource("154_cs8wp"), ExtResource("155_v85dx"), ExtResource("156_q4o2a"), ExtResource("157_pgakp"), ExtResource("158_h14rg"), ExtResource("159_eksaw"), ExtResource("160_ytqgu"), ExtResource("161_1y4o5")])
+
+[node name="weapon_hand" type="Node" parent="." unique_id=1281714805]
+script = ExtResource("150_65dfb")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=545791192]
+libraries/ = SubResource("AnimationLibrary_mp6ea")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=50728714]
+position = Vector2(392, 750)
+scale = Vector2(3.235, 3.235)
+
+[node name="sino3" type="AnimatedSprite2D" parent="Area2D" unique_id=395010953]
+visible = false
+self_modulate = Color(0.3764706, 0, 0, 0.54901963)
+texture_filter = 1
+position = Vector2(0, 3.0517578e-05)
+scale = Vector2(1.065, 1.065)
+sprite_frames = SubResource("SpriteFrames_57qmd")
+
+[node name="sino2" type="AnimatedSprite2D" parent="Area2D" unique_id=1746164536]
+self_modulate = Color(0.072842635, 0.072842635, 0.072842635, 1)
+texture_filter = 1
+position = Vector2(3.44, 44.416)
+rotation = 3.1415927
+scale = Vector2(1, 0.294)
+skew = -0.44505897
+sprite_frames = SubResource("SpriteFrames_57qmd")
+
+[node name="sino" type="AnimatedSprite2D" parent="Area2D" unique_id=1260285383]
+texture_filter = 1
+position = Vector2(0, 1.5258789e-05)
+sprite_frames = SubResource("SpriteFrames_57qmd")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1264093642]
+position = Vector2(0, -12)
+rotation = -1.5707964
+shape = SubResource("CapsuleShape2D_fcnqv")
+
+[node name="sucess" type="Area2D" parent="." unique_id=506295444]
+visible = false
+position = Vector2(647.00006, 833.99994)
+scale = Vector2(2.31558, 2.5774999)
+
+[node name="bot1" type="AnimatedSprite2D" parent="sucess" unique_id=2091088272]
+self_modulate = Color(0.3764706, 0, 0, 0.54901963)
+texture_filter = 1
+position = Vector2(0.92735696, -5.564149)
+scale = Vector2(1.0402706, 1.0213157)
+sprite_frames = SubResource("SpriteFrames_sklv6")
+animation = &"1"
+
+[node name="bot2" type="AnimatedSprite2D" parent="sucess" unique_id=186678172]
+self_modulate = Color(0.072842635, 0.072842635, 0.072842635, 1)
+texture_filter = 1
+position = Vector2(3.44, 32.148384)
+rotation = 3.1415927
+scale = Vector2(1, 0.294)
+skew = -0.44505897
+sprite_frames = SubResource("SpriteFrames_r2toi")
+animation = &"1"
+frame_progress = 0.69454116
+
+[node name="bot3" type="AnimatedSprite2D" parent="sucess" unique_id=1925978198]
+texture_filter = 1
+position = Vector2(0, 1.5258789e-05)
+sprite_frames = SubResource("SpriteFrames_54jr1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="sucess" unique_id=1337955710]
+position = Vector2(0, -12)
+rotation = -1.5707964
+shape = SubResource("CapsuleShape2D_fcnqv")
+
+[node name="STOPPLAYINGFUCK" type="Node2D" parent="." unique_id=1519529308]
+visible = false
+
+[node name="preto" type="Sprite2D" parent="STOPPLAYINGFUCK" unique_id=600673703]
+position = Vector2(413.99997, 529.00006)
+scale = Vector2(5.835, 1139.41)
+texture = SubResource("GradientTexture1D_yf5fn")
+
+[node name="Label" type="Label" parent="STOPPLAYINGFUCK" unique_id=2145696233]
+offset_left = 185.0
+offset_top = 285.0
+offset_right = 1128.0
+offset_bottom = 776.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_font_sizes/font_size = 48
+text = "STOP FUCKING STOP STOP BUG BUG BUG"
+
+[node name="Ui Handler" type="Control" parent="." unique_id=1443524174]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("172_hyfky")
+
+[node name="cond_list_" type="Button" parent="Ui Handler" unique_id=304190051]
+layout_mode = 0
+offset_left = 459.0
+offset_top = 922.0
+offset_right = 547.0
+offset_bottom = 953.0
+theme_override_fonts/font = ExtResource("20_qtxeg")
+theme_override_styles/normal = SubResource("StyleBoxFlat_65dfb")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_v2r4p")
+theme_override_styles/hover = SubResource("StyleBoxFlat_xkewn")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_uqg8w")
+text = "Condições"
+
+[node name="monst_list" type="Button" parent="Ui Handler" unique_id=2024342499]
+layout_mode = 0
+offset_left = 138.0
+offset_top = 885.0
+offset_right = 389.0
+offset_bottom = 966.0
+theme = SubResource("Theme_h28hk")
+text = "Monstros"
+
+[node name="arma_list" type="Button" parent="Ui Handler" unique_id=256353722]
+layout_mode = 0
+offset_left = 634.0
+offset_top = 895.0
+offset_right = 778.0
+offset_bottom = 953.0
+theme = SubResource("Theme_mjcor")
+text = "Armas"
+
+[node name="menu" type="Button" parent="Ui Handler" unique_id=1733021096]
+layout_mode = 0
+offset_left = 852.0
+offset_top = 7.0
+offset_right = 967.0
+offset_bottom = 38.0
+offset_transform_position = Vector2(193.54, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_styles/normal = SubResource("StyleBoxFlat_wqpy7")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_tt13v")
+theme_override_styles/hover = SubResource("StyleBoxFlat_ysoaw")
+text = "Back to menu"
+
+[node name="settings" type="Button" parent="Ui Handler" unique_id=1249907053]
+layout_mode = 0
+offset_left = 697.0
+offset_top = 7.0
+offset_right = 767.0
+offset_bottom = 44.0
+theme = SubResource("Theme_67d3l")
+text = "Config."
+
+[node name="condicoes" type="Control" parent="." unique_id=404717549]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 1114.0
+offset_top = -777.0
+offset_right = 1153.9999
+offset_bottom = -737.0
+
+[node name="Sprite2D" type="Sprite2D" parent="condicoes" unique_id=224908770]
+texture_filter = 1
+position = Vector2(-102.24999, 352.81253)
+scale = Vector2(0.53581077, 1.6057303)
+texture = ExtResource("166_4irnv")
+
+[node name="Inserir" type="LineEdit" parent="condicoes" unique_id=190222420]
+layout_mode = 0
+offset_left = -230.0
+offset_top = 2.0
+offset_right = 38.0
+offset_bottom = 35.0
+offset_transform_enabled = true
+theme = ExtResource("167_t6luk")
+placeholder_text = "Inserir Condição"
+max_length = 110
+
+[node name="condições" type="ScrollContainer" parent="condicoes" unique_id=275674856]
+layout_mode = 0
+offset_left = -231.0
+offset_top = 41.0
+offset_right = 33.0
+offset_bottom = 673.0
+
+[node name="condi_list" type="VBoxContainer" parent="condicoes/condições" unique_id=88797953]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+metadata/_edit_use_anchors_ = true
+
+[node name="Button" type="Button" parent="condicoes/condições/condi_list" unique_id=1102351827]
+visible = false
+layout_mode = 2
+text = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+autowrap_mode = 3
+
+[node name="Button2" type="Button" parent="condicoes/condições/condi_list" unique_id=1051965656]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button3" type="Button" parent="condicoes/condições/condi_list" unique_id=172588266]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button4" type="Button" parent="condicoes/condições/condi_list" unique_id=200478964]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button5" type="Button" parent="condicoes/condições/condi_list" unique_id=1694041666]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button6" type="Button" parent="condicoes/condições/condi_list" unique_id=2090680939]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button7" type="Button" parent="condicoes/condições/condi_list" unique_id=1197978692]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button8" type="Button" parent="condicoes/condições/condi_list" unique_id=805757944]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button9" type="Button" parent="condicoes/condições/condi_list" unique_id=1168798012]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button10" type="Button" parent="condicoes/condições/condi_list" unique_id=1120047474]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button11" type="Button" parent="condicoes/condições/condi_list" unique_id=1056322515]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button12" type="Button" parent="condicoes/condições/condi_list" unique_id=602995450]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button13" type="Button" parent="condicoes/condições/condi_list" unique_id=58355850]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button14" type="Button" parent="condicoes/condições/condi_list" unique_id=1899812663]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button15" type="Button" parent="condicoes/condições/condi_list" unique_id=1546377989]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button16" type="Button" parent="condicoes/condições/condi_list" unique_id=196655821]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button17" type="Button" parent="condicoes/condições/condi_list" unique_id=418618453]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button18" type="Button" parent="condicoes/condições/condi_list" unique_id=1402149220]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button19" type="Button" parent="condicoes/condições/condi_list" unique_id=2139156167]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button20" type="Button" parent="condicoes/condições/condi_list" unique_id=36058354]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button21" type="Button" parent="condicoes/condições/condi_list" unique_id=919443070]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="leitura" type="Node2D" parent="condicoes" unique_id=25527991]
+position = Vector2(-587, 468)
+script = ExtResource("168_jfph0")
+
+[node name="salvar" type="Button" parent="condicoes/leitura" unique_id=901954]
+offset_left = 392.0
+offset_top = 215.0
+offset_right = 462.0
+offset_bottom = 246.0
+theme = ExtResource("167_t6luk")
+text = "Salvar"
+
+[node name="carregar" type="Button" parent="condicoes/leitura" unique_id=1403977389]
+offset_left = 536.0
+offset_top = 215.0
+offset_right = 608.0
+offset_bottom = 246.0
+theme = ExtResource("167_t6luk")
+text = "Carregar"
+
+[node name="monsti" type="Node2D" parent="." unique_id=1752211773]
+position = Vector2(-489, 482)
+
+[node name="Sprite2D" type="Sprite2D" parent="monsti" unique_id=1833865149]
+visible = false
+texture_filter = 1
+position = Vector2(350.6707, -76)
+scale = Vector2(0.9221075, 0.65637094)
+texture = ExtResource("169_tkqv1")
+
+[node name="Lista Monstros" type="ScrollContainer" parent="monsti" unique_id=757511798]
+visible = false
+offset_top = -207.99991
+offset_right = 633.3334
+scale = Vector2(0.81, 0.81)
+offset_transform_scale = Vector2(0.69, 0.69)
+horizontal_scroll_mode = 0
+
+[node name="VBoxContainer" type="GridContainer" parent="monsti/Lista Monstros" unique_id=584945836]
+layout_mode = 2
+offset_transform_position_ratio = Vector2(-0.185, -0.155)
+offset_transform_scale = Vector2(0.595, 0.595)
+columns = 3
+
+[node name="weapon" type="Control" parent="." unique_id=1060403112]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 1219.0
+offset_top = 535.0
+offset_right = 1259.0
+offset_bottom = 575.0
+scale = Vector2(1.33, 1.33)
+metadata/_edit_use_anchors_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="weapon" unique_id=1640302502]
+texture_filter = 1
+position = Vector2(154.49994, 77.50006)
+scale = Vector2(0.7429148, 0.63142866)
+texture = ExtResource("2_p6oq2")
+
+[node name="Lista Arma" type="ScrollContainer" parent="weapon" unique_id=970497307]
+layout_mode = 0
+offset_left = -6.766917
+offset_top = 1.5258789e-05
+offset_right = 100.90972
+offset_bottom = 207.99992
+scale = Vector2(0.81, 0.81)
+offset_transform_scale = Vector2(0.69, 0.69)
+horizontal_scroll_mode = 0
+
+[node name="VBoxContainer2" type="GridContainer" parent="weapon/Lista Arma" unique_id=365099130]
+layout_mode = 2
+theme = ExtResource("171_ghuy7")
+theme_override_constants/h_separation = -134
+columns = 2
+
+[node name="PointLight2D" type="PointLight2D" parent="." unique_id=1903840230]
+light_mask = 2
+visibility_layer = 2
+position = Vector2(490, -169)
+scale = Vector2(0.8, 1.02)
+energy = 1.75
+range_item_cull_mask = 2
+texture = ExtResource("179_hl7ml")
+offset = Vector2(37.5, 642.15686)
+texture_scale = 1.29
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="PointLight2D" unique_id=1548814909]
+libraries/ = SubResource("AnimationLibrary_sknqy")
+autoplay = &"luz"
+
+[node name="Sino" type="AudioStreamPlayer" parent="." unique_id=1904881265]
+stream = ExtResource("180_iahvx")
+volume_db = -6.0
+
+[node name="Monstros" type="AudioStreamPlayer" parent="." unique_id=82634667]
+stream = ExtResource("181_0mgj1")
+volume_db = -6.0
+
+[node name="Armas" type="AudioStreamPlayer" parent="." unique_id=241746759]
+stream = ExtResource("182_racip")
+volume_db = -6.0
+
+[node name="Plush" type="AudioStreamPlayer" parent="." unique_id=1094642583]
+stream = ExtResource("183_tw0io")
+volume_db = -6.0
+
+[node name="Talk" type="AudioStreamPlayer" parent="." unique_id=385848039]
+stream = ExtResource("184_28ynf")
+volume_db = -6.0
+
+[node name="Config" type="AudioStreamPlayer" parent="." unique_id=1822805273]
+stream = ExtResource("185_dm1uj")
+volume_db = -6.0
+
+[node name="Condi" type="AudioStreamPlayer" parent="." unique_id=1557131474]
+stream = ExtResource("186_vsq4i")
+volume_db = -6.0
+
+[node name="quest" type="AudioStreamPlayer" parent="." unique_id=276645232]
+stream = ExtResource("187_duses")
+volume_db = -6.0
+
+[node name="gear" type="AudioStreamPlayer" parent="." unique_id=1250590927]
+stream = ExtResource("188_176hm")
+volume_db = -6.0
+
+[node name="filter" type="LineEdit" parent="." unique_id=632326843]
+visible = false
+offset_left = 414.0
+offset_top = 781.0
+offset_right = 611.0
+offset_bottom = 817.0
+theme = ExtResource("167_t6luk")
+placeholder_text = "Filtro"
+
+[node name="close_cond_list" type="Button" parent="." unique_id=1968205848]
+visible = false
+offset_left = 314.0
+offset_top = 2.0
+offset_right = 364.0
+offset_bottom = 52.0
+theme = ExtResource("174_ebd5r")
+icon = ExtResource("175_watk5")
+icon_alignment = 1
+
+[node name="monst_list_close" type="Button" parent="." unique_id=41439587]
+visible = false
+offset_top = 720.0
+offset_right = 50.0
+offset_bottom = 770.0
+theme = ExtResource("174_ebd5r")
+icon = ExtResource("175_watk5")
+icon_alignment = 1
+
+[node name="ativar" type="Button" parent="." unique_id=729972753]
+visible = false
+offset_left = 80.0
+offset_top = 778.0
+offset_right = 183.0
+offset_bottom = 820.0
+theme = ExtResource("167_t6luk")
+text = "Ativar Todos"
+
+[node name="desativar" type="Button" parent="." unique_id=1790835570]
+visible = false
+offset_left = 230.0
+offset_top = 778.0
+offset_right = 363.0
+offset_bottom = 820.0
+theme = ExtResource("167_t6luk")
+text = "Desativar Todos"
+
+[node name="arma_list_close" type="Button" parent="." unique_id=1742095087]
+visible = false
+offset_left = 942.0
+offset_top = 770.0
+offset_right = 1000.0
+offset_bottom = 801.0
+theme = ExtResource("174_ebd5r")
+icon = ExtResource("175_watk5")
+icon_alignment = 1
+
+[node name="ativar_ar" type="Button" parent="." unique_id=1023320137]
+visible = false
+offset_left = 650.0
+offset_top = 801.0
+offset_right = 752.0
+offset_bottom = 832.0
+theme = ExtResource("167_t6luk")
+text = "Ativar todos"
+
+[node name="desativar_ar" type="Button" parent="." unique_id=1249474143]
+visible = false
+offset_left = 803.0
+offset_top = 801.0
+offset_right = 936.0
+offset_bottom = 832.0
+theme = ExtResource("167_t6luk")
+text = "Desativar Todos"
+
+[node name="settings_close" type="Button" parent="." unique_id=1877365]
+visible = false
+offset_left = 580.0
+offset_top = -1.0
+offset_right = 650.0
+offset_bottom = 30.0
+theme = ExtResource("174_ebd5r")
+icon = ExtResource("175_watk5")
+icon_alignment = 1
+
+[node name="lang_man" type="Node" parent="." unique_id=2041434975]
+script = ExtResource("178_8dwuu")
+
+[connection signal="toggled" from="Settings/ScrollContainer/VBoxContainer/Disable Tempereds" to="." method="_on_disable_tempereds_toggled"]
+[connection signal="toggled" from="Settings/ScrollContainer/VBoxContainer/Only Tempered" to="." method="_on_only_tempered_toggled"]
+[connection signal="toggled" from="Settings/ScrollContainer/VBoxContainer/Only Arch-Tempered" to="." method="_on_only_arch_tempered_toggled"]
+[connection signal="toggled" from="Settings/ScrollContainer/VBoxContainer/Only Apex" to="." method="_on_only_apex_toggled"]
+[connection signal="toggled" from="Settings/ScrollContainer/VBoxContainer/Only Deviant" to="." method="_on_only_deviant_toggled"]
+[connection signal="toggled" from="Settings/ScrollContainer/VBoxContainer/Only Hyper" to="." method="_on_only_hyper_toggled"]
+[connection signal="toggled" from="Settings/ScrollContainer/VBoxContainer/Only Afflicted" to="." method="_on_only_afflicted_toggled"]
+[connection signal="toggled" from="Settings/ScrollContainer/VBoxContainer/Only Zenith" to="." method="_on_only_zenith_toggled"]
+[connection signal="toggled" from="Settings/ScrollContainer/VBoxContainer/Only Musou" to="." method="_on_only_musou_toggled"]
+[connection signal="toggled" from="Settings/ScrollContainer/VBoxContainer/Enable capture" to="." method="_on_enable_capture_toggled"]
+[connection signal="input_event" from="Luna/Area2D" to="." method="_on_area_2d_input_event"]
+[connection signal="input_event" from="Area2D" to="." method="sino_apertado"]
+[connection signal="mouse_shape_entered" from="Area2D" to="." method="_on_area_2d_mouse_shape_entered"]
+[connection signal="mouse_shape_exited" from="Area2D" to="." method="_on_area_2d_mouse_shape_exited"]
+[connection signal="input_event" from="sucess" to="." method="_on_sucess_input_event"]
+[connection signal="pressed" from="Ui Handler/cond_list_" to="Ui Handler" method="_on_cond_list__pressed"]
+[connection signal="pressed" from="Ui Handler/monst_list" to="Ui Handler" method="_on_monst_list_pressed"]
+[connection signal="pressed" from="Ui Handler/arma_list" to="Ui Handler" method="_on_arma_list_pressed"]
+[connection signal="pressed" from="Ui Handler/menu" to="." method="_on_menu_pressed"]
+[connection signal="pressed" from="Ui Handler/settings" to="Ui Handler" method="_on_settings_toggled"]
+[connection signal="text_submitted" from="condicoes/Inserir" to="condi_hand" method="_on_inserir_text_submitted"]
+[connection signal="pressed" from="condicoes/leitura/salvar" to="condicoes/leitura" method="_on_salvar_pressed"]
+[connection signal="pressed" from="condicoes/leitura/carregar" to="condicoes/leitura" method="_on_carregar_pressed"]
+[connection signal="text_changed" from="filter" to="mons_hand" method="_on_line_edit_text_changed"]
+[connection signal="pressed" from="close_cond_list" to="Ui Handler" method="_on_close_cond_list_pressed"]
+[connection signal="pressed" from="monst_list_close" to="Ui Handler" method="_on_monst_list_close_pressed"]
+[connection signal="pressed" from="ativar" to="mons_hand" method="_on_ativar_pressed"]
+[connection signal="pressed" from="desativar" to="mons_hand" method="_on_desativar_pressed"]
+[connection signal="pressed" from="arma_list_close" to="Ui Handler" method="_on_arma_list_close_pressed"]
+[connection signal="pressed" from="ativar_ar" to="Ui Handler" method="_on_ativar_ar_pressed"]
+[connection signal="pressed" from="desativar_ar" to="Ui Handler" method="_on_desativar_ar_pressed"]
+[connection signal="pressed" from="settings_close" to="Ui Handler" method="_on_settings_close_pressed"]

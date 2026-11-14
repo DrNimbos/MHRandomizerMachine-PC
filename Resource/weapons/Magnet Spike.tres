@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Weapon" format=3 uid="uid://bg0riha1ju1ds"]
+
+[ext_resource type="Script" uid="uid://bx2dpjeuoibep" path="res://Resource/weapons/weapon_res.gd" id="1_henab"]
+
+[resource]
+script = ExtResource("1_henab")
+name = "Magnet Spike"
+metadata/_custom_type_script = "uid://bx2dpjeuoibep"

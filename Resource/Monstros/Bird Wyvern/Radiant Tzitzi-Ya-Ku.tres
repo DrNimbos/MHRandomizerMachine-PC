@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://bkmvb18m4lq2r"]
+
+[ext_resource type="Texture2D" uid="uid://ifeoi7klipnr" path="res://Foto/Bird Wyvern/MHOutlanders-Radiant_Tzitzi-Ya-Ku_Icon.png" id="1_038ln"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_1n484"]
+
+[resource]
+script = ExtResource("2_1n484")
+nome = "Tzitzi-Ya-Ku"
+foto = ExtResource("1_038ln")
+tipo = 1
+comentario2 = "It's not fun getting flashed by one of these."
+comentario2_br = "Não é nada divertido levar uma piscada de luz de um desses."
+reacao = "2"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://pai4b8vstpn1"]
+
+[ext_resource type="Texture2D" uid="uid://cpes2tik5ur7m" path="res://Foto/Flying Wyvern/MHOutlanders-Radiant_Rathian_Icon.png" id="1_2o66q"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_nbm2y"]
+
+[resource]
+script = ExtResource("2_nbm2y")
+nome = "Radiant Rathian"
+foto = ExtResource("1_2o66q")
+comentario2 = "The first monster catalogued by the guild, good luck!"
+comentario2_br = "O primeiro monstro catalogado pela guilda, boa sorte!"
+reacao = "3"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://c15rrrn7nqyje"]
+
+[ext_resource type="Texture2D" uid="uid://d2d47ybh1ga2i" path="res://Foto/Bird Wyvern/MHOutlanders-Radiant_Kulu-Ya-Ku_Icon.png" id="1_fpb4j"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_r222t"]
+
+[resource]
+script = ExtResource("2_r222t")
+nome = "Radiant Kulu-Ya-Ku"
+foto = ExtResource("1_fpb4j")
+tipo = 1
+comentario2 = "If you want to eat something delicious... I recomend Kulu-Ya-Ku Eggs! They're soooo Good!"
+comentario2_br = "Se você quiser comer algo delicioso... eu recomendo Ovos de Kulu-Ya-Ku! Eles são muito bons!"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

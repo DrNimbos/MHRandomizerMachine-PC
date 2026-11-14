@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="GameInfo" format=3 uid="uid://cnb8j1ukukc45"]
+
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="1_batuf"]
+[ext_resource type="Resource" uid="uid://b87l0n0m0reeh" path="res://Resource/Monstros/Leviathan/Agnaktor.tres" id="2_fou7n"]
+[ext_resource type="Resource" uid="uid://c85ftroy7t5tj" path="res://Resource/Monstros/Elder Dragon/Alatreon.tres" id="3_x4dwg"]
+[ext_resource type="Resource" uid="uid://biq0mos15okkd" path="res://Resource/Monstros/Flying Wyvern/Diablos.tres" id="4_8lj1k"]
+[ext_resource type="Resource" uid="uid://tfm0rh88c3ew" path="res://Resource/Monstros/Flying Wyvern/Barioth.tres" id="4_vjb2n"]
+[ext_resource type="Resource" uid="uid://bfl32mbmpo04" path="res://Resource/Monstros/Brute Wyvern/Barroth.tres" id="5_rscb1"]
+[ext_resource type="Resource" uid="uid://dfbsomk3aabpb" path="res://Resource/Monstros/Elder Dragon/Ceadeus.tres" id="6_une10"]
+[ext_resource type="Resource" uid="uid://cj0svgl3b4dw1" path="res://Resource/Monstros/Brute Wyvern/Deviljho.tres" id="7_tyy02"]
+[ext_resource type="Resource" uid="uid://cocagn25y60lm" path="res://Resource/Monstros/Flying Wyvern/Gigginox.tres" id="9_7kq54"]
+[ext_resource type="Resource" uid="uid://dxgkqbcbastfj" path="res://Resource/Monstros/Leviathan/Gobul.tres" id="10_xhcbs"]
+[ext_resource type="Resource" uid="uid://buot3re0l7ks" path="res://Resource/Monstros/Bird Wyvern/Great Baggi.tres" id="11_y43l0"]
+[ext_resource type="Resource" uid="uid://c46o3b3x7p0sl" path="res://Resource/Monstros/Bird Wyvern/Great Jaggi.tres" id="12_8yf47"]
+[ext_resource type="Resource" uid="uid://cqg41di0grifk" path="res://Resource/Monstros/Elder Dragon/Jhen Mohran.tres" id="13_axvgs"]
+[ext_resource type="Resource" uid="uid://cp8d2qk4lygf5" path="res://Resource/Monstros/Leviathan/Lagiacrus.tres" id="14_kokte"]
+[ext_resource type="Resource" uid="uid://q8tbbc2th2bv" path="res://Resource/Monstros/Flying Wyvern/Rathalos.tres" id="15_axvgs"]
+[ext_resource type="Resource" uid="uid://ba7ibih0vil5g" path="res://Resource/Monstros/Bird Wyvern/Qurupeco.tres" id="15_lkk51"]
+[ext_resource type="Resource" uid="uid://dr1msfeff61qo" path="res://Resource/Monstros/Flying Wyvern/Rathian.tres" id="16_kokte"]
+[ext_resource type="Resource" uid="uid://cgwrsx8vrw78n" path="res://Resource/Monstros/Leviathan/Royal Ludroth.tres" id="18_oqdqd"]
+[ext_resource type="Resource" uid="uid://bprg0lla56kk1" path="res://Resource/Monstros/Brute Wyvern/Uragaan.tres" id="19_wl2si"]
+[ext_resource type="Script" uid="uid://bgi6sl5flews5" path="res://Resource/Games/games_res.gd" id="19_yhi7r"]
+[ext_resource type="Script" uid="uid://bx2dpjeuoibep" path="res://Resource/weapons/weapon_res.gd" id="20_wl2si"]
+[ext_resource type="Resource" uid="uid://clrgmkb2p2u8" path="res://Resource/weapons/Greatsword.tres" id="21_04rc7"]
+[ext_resource type="Resource" uid="uid://bo5sgdo4p5s0e" path="res://Resource/weapons/SnS.tres" id="22_pxl01"]
+[ext_resource type="Resource" uid="uid://mjay4fk5dq2o" path="res://Resource/weapons/Longsword.tres" id="23_04rc7"]
+[ext_resource type="Resource" uid="uid://bhm4plift233n" path="res://Resource/weapons/Lance.tres" id="23_pxfbp"]
+[ext_resource type="Resource" uid="uid://byjic4gdnjofi" path="res://Resource/weapons/Hammer.tres" id="24_1wj6f"]
+[ext_resource type="Resource" uid="uid://b0qarijkva1bf" path="res://Resource/weapons/Light Bowgun.tres" id="25_vfy38"]
+[ext_resource type="Resource" uid="uid://clcci7ybcee75" path="res://Resource/weapons/Heavy Bowgun.tres" id="26_noxa1"]
+[ext_resource type="Resource" uid="uid://coh46kgoqt63x" path="res://Resource/weapons/Switch Axe.tres" id="27_pxl01"]
+[ext_resource type="Resource" uid="uid://d35n5bnv1ayni" path="res://Resource/weapons/Medium Bowgun.tres" id="29_pxfbp"]
+
+[resource]
+script = ExtResource("19_yhi7r")
+name = "Monster Hunter 3"
+monster_list = Array[ExtResource("1_batuf")]([ExtResource("2_fou7n"), ExtResource("3_x4dwg"), ExtResource("4_vjb2n"), ExtResource("5_rscb1"), ExtResource("6_une10"), ExtResource("7_tyy02"), ExtResource("4_8lj1k"), ExtResource("9_7kq54"), ExtResource("10_xhcbs"), ExtResource("11_y43l0"), ExtResource("12_8yf47"), ExtResource("13_axvgs"), ExtResource("14_kokte"), ExtResource("15_lkk51"), ExtResource("15_axvgs"), ExtResource("16_kokte"), ExtResource("18_oqdqd"), ExtResource("19_wl2si")])
+weapon_list = Array[ExtResource("20_wl2si")]([ExtResource("21_04rc7"), ExtResource("23_04rc7"), ExtResource("22_pxl01"), ExtResource("23_pxfbp"), ExtResource("24_1wj6f"), ExtResource("27_pxl01"), ExtResource("25_vfy38"), ExtResource("29_pxfbp"), ExtResource("26_noxa1")])
+metadata/_custom_type_script = "uid://bgi6sl5flews5"

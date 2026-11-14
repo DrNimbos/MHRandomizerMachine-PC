@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://c1sk1abise4k5"]
+
+[ext_resource type="Texture2D" uid="uid://so8g5sigg6h8" path="res://Foto/Fanged Wyvern/MHOutlanders-Radiant_Tobi-Kadachi_Icon.png" id="1_y2lwn"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_eokcs"]
+
+[resource]
+script = ExtResource("2_eokcs")
+nome = "Tobi-Kadachi"
+foto = ExtResource("1_y2lwn")
+capturavel = true
+tipo = 10
+comentario2 = "It must hurt getting stabbed by its spikes on its back.."
+comentario2_br = "Deve doer ser espetado pelos espinhos nas costas dele..."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

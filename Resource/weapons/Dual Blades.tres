@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Weapon" format=3 uid="uid://d2rpjcvmo0o66"]
+
+[ext_resource type="Script" uid="uid://bx2dpjeuoibep" path="res://Resource/weapons/weapon_res.gd" id="1_kv4o1"]
+
+[resource]
+script = ExtResource("1_kv4o1")
+name = "Dual Blades"
+metadata/_custom_type_script = "uid://bx2dpjeuoibep"

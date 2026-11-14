@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Weapon" format=3 uid="uid://byjic4gdnjofi"]
+
+[ext_resource type="Script" uid="uid://bx2dpjeuoibep" path="res://Resource/weapons/weapon_res.gd" id="1_qyc6n"]
+
+[resource]
+script = ExtResource("1_qyc6n")
+name = "Hammer"
+metadata/_custom_type_script = "uid://bx2dpjeuoibep"

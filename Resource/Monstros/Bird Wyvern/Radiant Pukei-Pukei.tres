@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://okmtjk0gti6v"]
+
+[ext_resource type="Texture2D" uid="uid://bs2612jm4ll7m" path="res://Foto/Bird Wyvern/MHOutlanders-Radiant_Pukei-Pukei_Icon.png" id="1_vknfc"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_auai7"]
+
+[resource]
+script = ExtResource("2_auai7")
+nome = "Radiant Pukei-Pukei"
+foto = ExtResource("1_vknfc")
+tipo = 1
+comentario2 = "Everytime I see their tongues, I try to imagine what they taste like..."
+comentario2_br = "Toda vez que vejo as línguas deles, tento imaginar qual é o gosto..."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

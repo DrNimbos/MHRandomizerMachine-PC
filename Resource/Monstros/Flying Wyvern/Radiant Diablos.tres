@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://bdujetlntpl1i"]
+
+[ext_resource type="Texture2D" uid="uid://v2g34ad3cnv2" path="res://Foto/Flying Wyvern/72px-MHOutlanders-Radiant_Diablos_Icon.png.webp" id="1_5c5sl"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_fnj2i"]
+
+[resource]
+script = ExtResource("2_fnj2i")
+nome = "Radiant Diablos"
+foto = ExtResource("1_5c5sl")
+tipo = 3
+comentario2 = "I always wondered if you could build houses with Diablos horns..."
+comentario2_br = "Eu sempre me perguntei se dava para construir casas com chifres de Diablo..."
+reacao = "2"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

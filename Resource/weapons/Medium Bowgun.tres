@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Weapon" format=3 uid="uid://d35n5bnv1ayni"]
+
+[ext_resource type="Script" uid="uid://bx2dpjeuoibep" path="res://Resource/weapons/weapon_res.gd" id="1_ck13i"]
+
+[resource]
+script = ExtResource("1_ck13i")
+name = "Medium Bowgun"
+metadata/_custom_type_script = "uid://bx2dpjeuoibep"
