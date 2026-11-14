@@ -145,9 +145,9 @@ func _on_mh_out_pressed() -> void:
 
 func _on_download_pressed() -> void:
 	if OS.has_feature("web"):
-		JavaScriptBridge.eval("window.open('https://drive.google.com/file/d/1DctITkmQccohQXaeVqUFrMywNbgHcFM-/view?usp=sharing', '_blank').focus();")
+		JavaScriptBridge.eval("window.open('https://github.com/DrNimbos/MHRandomizerMachine-PC', '_blank').focus();")
 	else:
-		OS.shell_open("https://drive.google.com/file/d/1DctITkmQccohQXaeVqUFrMywNbgHcFM-/view?usp=sharing")
+		OS.shell_open("https://github.com/DrNimbos/MHRandomizerMachine-PC")
 
 
 func _on_site_pressed() -> void:

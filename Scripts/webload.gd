@@ -5,7 +5,7 @@ extends Node
 var _js_callback: JavaScriptObject
 
 
-# ---------- EXPORTAR ----------
+
 
 func exportar_desafios(desafios: Array[String]) -> void:
 	var json_string = JSON.stringify(desafios, "\t")
@@ -30,7 +30,6 @@ func exportar_desafios(desafios: Array[String]) -> void:
 		file_dialog.popup_centered(Vector2i(600, 400))
 
 
-# ---------- IMPORTAR ----------
 
 func importar_desafios() -> void:
 	if OS.get_name() == "Web":
@@ -80,7 +79,7 @@ func _on_arquivo_selecionado_desktop(caminho: String) -> void:
 	_processar_json(conteudo)
 
 
-# ---------- COMUM ----------
+
 
 func _processar_json(conteudo: String) -> void:
 	var json = JSON.new()
@@ -93,7 +92,7 @@ func _processar_json(conteudo: String) -> void:
 		print("Erro ao importar: JSON inválido")
 
 
-# ---------- BOTÕES ----------
+
 
 func _on_carregar_pressed() -> void:
 	importar_desafios()
