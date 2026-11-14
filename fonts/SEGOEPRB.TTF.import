@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://bd2ocjopo3vlc"
-path="res://.godot/imported/SEGOEPR.TTF-a89b5eacda62828fff9682194f58e236.fontdata"
+uid="uid://d3umkit61y84h"
+path="res://.godot/imported/SEGOEPRB.TTF-17f02221f4bc6a55ffc976ff702f4e2a.fontdata"
 
 [deps]
 
-source_file="res://SEGOEPR.TTF"
-dest_files=["res://.godot/imported/SEGOEPR.TTF-a89b5eacda62828fff9682194f58e236.fontdata"]
+source_file="res://fonts/SEGOEPRB.TTF"
+dest_files=["res://.godot/imported/SEGOEPRB.TTF-17f02221f4bc6a55ffc976ff702f4e2a.fontdata"]
 
 [params]
 

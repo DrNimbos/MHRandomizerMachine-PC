@@ -1,6 +1,6 @@
 [gd_resource type="Theme" format=3 uid="uid://lyfsbtiils4o"]
 
-[ext_resource type="FontFile" uid="uid://b34isdjuniwb3" path="res://MONSTER HUNTER TYPE 2.TTF" id="1_kwjlq"]
+[ext_resource type="FontFile" uid="uid://b34isdjuniwb3" path="res://fonts/MONSTER HUNTER TYPE 2.TTF" id="1_kwjlq"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_44w2e"]
 bg_color = Color(0.12931064, 0.013405927, 0.008793951, 0.36862746)

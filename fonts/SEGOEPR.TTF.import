@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://cbbwuhgkovktl"
-path="res://.godot/imported/CONSOLAZ.TTF-32f2909865a2370490bb09f126a24290.fontdata"
+uid="uid://bd2ocjopo3vlc"
+path="res://.godot/imported/SEGOEPR.TTF-0dac5a34b33375f94b03a7bd6fa72148.fontdata"
 
 [deps]
 
-source_file="res://CONSOLAZ.TTF"
-dest_files=["res://.godot/imported/CONSOLAZ.TTF-32f2909865a2370490bb09f126a24290.fontdata"]
+source_file="res://fonts/SEGOEPR.TTF"
+dest_files=["res://.godot/imported/SEGOEPR.TTF-0dac5a34b33375f94b03a7bd6fa72148.fontdata"]
 
 [params]
 

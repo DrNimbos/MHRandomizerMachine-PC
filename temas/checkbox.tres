@@ -1,6 +1,6 @@
 [gd_resource type="Theme" format=3 uid="uid://c6g42r6eqjx8u"]
 
-[ext_resource type="FontFile" uid="uid://bd2ocjopo3vlc" path="res://SEGOEPR.TTF" id="1_2hb1g"]
+[ext_resource type="FontFile" uid="uid://bd2ocjopo3vlc" path="res://fonts/SEGOEPR.TTF" id="1_2hb1g"]
 
 [resource]
 CheckBox/colors/checkbox_checked_color = Color(0.59607846, 0, 0, 1)

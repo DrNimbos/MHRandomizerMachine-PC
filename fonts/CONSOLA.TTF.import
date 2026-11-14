@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://feic6bscqwxn"
-path="res://.godot/imported/SUPERNATURAL_KNIGHT.TTF-0dab15e1c55c9d3b647abe308c0983ac.fontdata"
+uid="uid://jjjpwm4l1q3t"
+path="res://.godot/imported/CONSOLA.TTF-cc1b889d01aaacc024ce03c58bcb6fb4.fontdata"
 
 [deps]
 
-source_file="res://SUPERNATURAL_KNIGHT.TTF"
-dest_files=["res://.godot/imported/SUPERNATURAL_KNIGHT.TTF-0dab15e1c55c9d3b647abe308c0983ac.fontdata"]
+source_file="res://fonts/CONSOLA.TTF"
+dest_files=["res://.godot/imported/CONSOLA.TTF-cc1b889d01aaacc024ce03c58bcb6fb4.fontdata"]
 
 [params]
 

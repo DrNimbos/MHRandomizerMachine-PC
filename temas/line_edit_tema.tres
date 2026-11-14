@@ -1,6 +1,6 @@
 [gd_resource type="Theme" format=3 uid="uid://che4u2xnx1qvo"]
 
-[ext_resource type="FontFile" uid="uid://bd2ocjopo3vlc" path="res://SEGOEPR.TTF" id="1_ybs3o"]
+[ext_resource type="FontFile" uid="uid://bd2ocjopo3vlc" path="res://fonts/SEGOEPR.TTF" id="1_ybs3o"]
 [ext_resource type="Texture2D" uid="uid://cornl7h01ipjp" path="res://Foto/UI/old-parchment-paper-sheet-vintage-aged-or-texture-background-png.png" id="2_7l6r1"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ybs3o"]

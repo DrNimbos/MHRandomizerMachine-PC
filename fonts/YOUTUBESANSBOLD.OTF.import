@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://dpu3gij0mxv8i"
-path="res://.godot/imported/SEGOESC.TTF-fdcbf65becc1b5606dd284798bc625d0.fontdata"
+uid="uid://dx6o7fh2ontam"
+path="res://.godot/imported/YOUTUBESANSBOLD.OTF-bc41fb1d9d49c840cc12a377a8c8b066.fontdata"
 
 [deps]
 
-source_file="res://SEGOESC.TTF"
-dest_files=["res://.godot/imported/SEGOESC.TTF-fdcbf65becc1b5606dd284798bc625d0.fontdata"]
+source_file="res://fonts/YOUTUBESANSBOLD.OTF"
+dest_files=["res://.godot/imported/YOUTUBESANSBOLD.OTF-bc41fb1d9d49c840cc12a377a8c8b066.fontdata"]
 
 [params]
 

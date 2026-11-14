@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://bvhi87nsdg8hb" path="res://Foto/UI/backgroundselect.png" id="1_fbgp3"]
 [ext_resource type="Script" uid="uid://cg80ltpxou8u6" path="res://Scripts/select_br.gd" id="1_jgjmk"]
-[ext_resource type="Theme" uid="uid://crj3t23e6xo7a" path="res://feafea.tres" id="3_ako2x"]
+[ext_resource type="Theme" uid="uid://crj3t23e6xo7a" path="res://temas/feafea.tres" id="3_ako2x"]
 [ext_resource type="Texture2D" uid="uid://cpn33wgilqe5n" path="res://Foto/UI/Logo.png" id="4_ako2x"]
 
 [sub_resource type="Animation" id="Animation_fbgp3"]

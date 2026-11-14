@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://d3weejvm2cfoo"]
 
 [ext_resource type="Script" uid="uid://c0782xdvrbmx2" path="res://Scripts/menu_ling.gd" id="1_r6lsp"]
-[ext_resource type="Theme" uid="uid://che4u2xnx1qvo" path="res://line_edit_tema.tres" id="2_o4qym"]
+[ext_resource type="Theme" uid="uid://che4u2xnx1qvo" path="res://temas/line_edit_tema.tres" id="2_o4qym"]
 [ext_resource type="Texture2D" uid="uid://cj0bnv2ycgmw5" path="res://Foto/UI/Flag_of_Brazil.png" id="3_otfam"]
 [ext_resource type="Texture2D" uid="uid://ddmvfnccvy30i" path="res://Foto/UI/Flag_of_us.png" id="4_aqbl0"]
 

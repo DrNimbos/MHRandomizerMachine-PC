@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://cshexh2b4jjd1" path="res://Scripts/select.gd" id="1_n5wpo"]
 [ext_resource type="Texture2D" uid="uid://bvhi87nsdg8hb" path="res://Foto/UI/backgroundselect.png" id="2_pfx1v"]
-[ext_resource type="Theme" uid="uid://crj3t23e6xo7a" path="res://feafea.tres" id="3_5bupp"]
+[ext_resource type="Theme" uid="uid://crj3t23e6xo7a" path="res://temas/feafea.tres" id="3_5bupp"]
 [ext_resource type="Texture2D" uid="uid://cpn33wgilqe5n" path="res://Foto/UI/Logo.png" id="4_pfx1v"]
 
 [sub_resource type="Animation" id="Animation_fbgp3"]
@@ -163,6 +163,7 @@ texture = SubResource("GradientTexture1D_g4v7s")
 
 [node name="GridContainer" type="VBoxContainer" parent="GridContainer2" unique_id=455093087]
 layout_mode = 2
+theme_override_constants/separation = 12
 
 [node name="MH1JP" type="Button" parent="GridContainer2/GridContainer" unique_id=506345261]
 layout_mode = 2
@@ -182,6 +183,7 @@ text = "Monster Hunter Freedom"
 
 [node name="2 Gen" type="VBoxContainer" parent="GridContainer2" unique_id=1664655287]
 layout_mode = 2
+theme_override_constants/separation = 12
 
 [node name="MH2" type="Button" parent="GridContainer2/2 Gen" unique_id=1152699164]
 layout_mode = 2
@@ -197,6 +199,7 @@ text = "Monster Hunter Freedom Unite"
 
 [node name="3 gen" type="VBoxContainer" parent="GridContainer2" unique_id=1815798724]
 layout_mode = 2
+theme_override_constants/separation = 12
 
 [node name="MH3" type="Button" parent="GridContainer2/3 gen" unique_id=1445188308]
 layout_mode = 2
@@ -212,6 +215,7 @@ text = "Monster Hunter 3 Ultimate"
 
 [node name="4 Gen" type="VBoxContainer" parent="GridContainer2" unique_id=1645462934]
 layout_mode = 2
+theme_override_constants/separation = 12
 
 [node name="MH4" type="Button" parent="GridContainer2/4 Gen" unique_id=1236622739]
 layout_mode = 2
@@ -231,6 +235,7 @@ text = "Monster Hunter Generations Ultimate"
 
 [node name="5 Gen" type="VBoxContainer" parent="GridContainer2" unique_id=1587763243]
 layout_mode = 2
+theme_override_constants/separation = 12
 
 [node name="MHW" type="Button" parent="GridContainer2/5 Gen" unique_id=1766389931]
 layout_mode = 2
@@ -261,6 +266,7 @@ offset_top = 680.0
 offset_right = 601.0
 offset_bottom = 720.0
 theme = ExtResource("3_5bupp")
+theme_override_constants/separation = 9
 
 [node name="MHFZZ" type="Button" parent="VBoxContainer" unique_id=1827411541]
 layout_mode = 2

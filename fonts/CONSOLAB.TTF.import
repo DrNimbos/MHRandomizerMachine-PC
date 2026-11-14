@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://b34isdjuniwb3"
-path="res://.godot/imported/MONSTER HUNTER TYPE 2.TTF-5cd7c0047330cdd9dd13eb4a47baa2c8.fontdata"
+uid="uid://w7gsgrtrsheh"
+path="res://.godot/imported/CONSOLAB.TTF-2ebe755ef23ff214c9d371aad4bc39a1.fontdata"
 
 [deps]
 
-source_file="res://MONSTER HUNTER TYPE 2.TTF"
-dest_files=["res://.godot/imported/MONSTER HUNTER TYPE 2.TTF-5cd7c0047330cdd9dd13eb4a47baa2c8.fontdata"]
+source_file="res://fonts/CONSOLAB.TTF"
+dest_files=["res://.godot/imported/CONSOLAB.TTF-2ebe755ef23ff214c9d371aad4bc39a1.fontdata"]
 
 [params]
 

@@ -1,6 +1,6 @@
-[gd_resource type="Theme" load_steps=2 format=3 uid="uid://dvlde2n34sv1b"]
+[gd_resource type="Theme" format=3 uid="uid://dvlde2n34sv1b"]
 
-[ext_resource type="StyleBox" uid="uid://dyekq2nqamph0" path="res://new_style_box_flat.tres" id="1_amlv4"]
+[ext_resource type="StyleBox" uid="uid://dyekq2nqamph0" path="res://temas/new_style_box_flat.tres" id="1_amlv4"]
 
 [resource]
 Button/styles/disabled = ExtResource("1_amlv4")

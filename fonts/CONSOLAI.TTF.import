@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://geu60y2egbw5"
-path="res://.godot/imported/SEGOESCB.TTF-65f56c1f4073f2bdc79d2de07c7da6fc.fontdata"
+uid="uid://cgisjaoqb42vx"
+path="res://.godot/imported/CONSOLAI.TTF-ac7340a9a49b3334619b317d1b190b56.fontdata"
 
 [deps]
 
-source_file="res://SEGOESCB.TTF"
-dest_files=["res://.godot/imported/SEGOESCB.TTF-65f56c1f4073f2bdc79d2de07c7da6fc.fontdata"]
+source_file="res://fonts/CONSOLAI.TTF"
+dest_files=["res://.godot/imported/CONSOLAI.TTF-ac7340a9a49b3334619b317d1b190b56.fontdata"]
 
 [params]
 
