@@ -1,6 +1,7 @@
-#Monster Hunter Randomizer Machine
+# Monster Hunter Randomizer Machine
 
 ![image](https://github.com/DrNimbos/MHRandomizerMachine-PC/blob/895583d0b5867497d236dcb4018bb295f55cc9f2/Foto/UI/Logo.png)
+
 A simple Monster Hunter challange randomizer made in Godot
 
 You can choose monsters, weapons and conditions for the randomization poll, it coutains several presets for different games as well as a custom mode with everything
