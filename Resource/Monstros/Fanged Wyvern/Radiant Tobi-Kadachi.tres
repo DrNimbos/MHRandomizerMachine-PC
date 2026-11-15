@@ -5,7 +5,7 @@
 
 [resource]
 script = ExtResource("2_eokcs")
-nome = "Tobi-Kadachi"
+nome = "Radiant Tobi-Kadachi"
 foto = ExtResource("1_y2lwn")
 capturavel = true
 tipo = 10

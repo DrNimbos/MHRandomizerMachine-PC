@@ -5,7 +5,7 @@
 
 [resource]
 script = ExtResource("2_1n484")
-nome = "Tzitzi-Ya-Ku"
+nome = "Radiant Tzitzi-Ya-Ku"
 foto = ExtResource("1_038ln")
 tipo = 1
 comentario2 = "It's not fun getting flashed by one of these."
